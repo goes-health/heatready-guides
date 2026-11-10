@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://goes-health.github.io/heatready-guides/sitemap.xml
+Sitemap: https://heatready.goes.health/sitemap.xml
