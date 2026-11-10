@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/index.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/guides/index.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/guides/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>/guides/phoenix-construction.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/guides/phoenix-construction.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/guides/houston-roofing.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/guides/houston-roofing.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/guides/las-vegas-landscaping.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/guides/las-vegas-landscaping.html</loc>
     <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/guides/california-construction-3395.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/guides/california-construction-3395.html</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/guides/dallas-utilities.html</loc>
+    <loc>https://goes-health.github.io/heatready-guides/guides/dallas-utilities.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
