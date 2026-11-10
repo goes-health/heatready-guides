@@ -1,0 +1,72 @@
+{
+  "site": "HeatReady Guides",
+  "slug": "heatready.guide",
+  "niche": "Outdoor Worker Heat Safety Guides by City × Industry",
+  "goes": {
+    "app": "https://goes.health",
+    "platform": "https://goes.health/platform"
+  },
+  "guides": [
+    {
+      "id": "phoenix-construction",
+      "title": "Phoenix Construction Heat Illness Prevention Checklist (2026)",
+      "city": "Phoenix",
+      "industry": "Construction",
+      "path": "guides/phoenix-construction.html",
+      "status": "shipped",
+      "published": "2026-11-05"
+    },
+    {
+      "id": "houston-roofing",
+      "title": "Houston Roofing Crew Heat Safety Plan: Water, Rest, Shade Triggers",
+      "city": "Houston",
+      "industry": "Roofing",
+      "path": "guides/houston-roofing.html",
+      "status": "shipped",
+      "published": "2026-11-06"
+    },
+    {
+      "id": "las-vegas-landscaping",
+      "title": "Las Vegas Landscaping Heat Illness Prevention Guide",
+      "city": "Las Vegas",
+      "industry": "Landscaping",
+      "path": "guides/las-vegas-landscaping.html",
+      "status": "shipped",
+      "published": "2026-11-07"
+    },
+    {
+      "id": "california-construction-3395",
+      "title": "California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)",
+      "city": "California",
+      "industry": "Construction",
+      "path": "guides/california-construction-3395.html",
+      "status": "shipped",
+      "published": "2026-11-08"
+    },
+    {
+      "id": "dallas-utilities",
+      "title": "Dallas Utility Workers Heat Index Break Schedule & Acclimatization Guide",
+      "city": "Dallas",
+      "industry": "Utilities",
+      "path": "guides/dallas-utilities.html",
+      "status": "shipped",
+      "published": "2026-11-09"
+    },
+    {
+      "id": "miami-delivery",
+      "title": "Miami Delivery Driver Heat Illness Prevention Checklist",
+      "city": "Miami",
+      "industry": "Delivery",
+      "path": "guides/miami-delivery.html",
+      "status": "planned"
+    },
+    {
+      "id": "tucson-agriculture",
+      "title": "Tucson Agriculture High-Heat Procedures (95°F+) Field Guide",
+      "city": "Tucson",
+      "industry": "Agriculture",
+      "path": "guides/tucson-agriculture.html",
+      "status": "planned"
+    }
+  ]
+}

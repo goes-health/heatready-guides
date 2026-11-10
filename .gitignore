@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.env
+.env.*
+*.log
+
+# Internal preview screenshots (not linked from the site)
+preview-*.png
