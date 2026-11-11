@@ -58,7 +58,8 @@
       "city": "Miami",
       "industry": "Delivery",
       "path": "guides/miami-delivery.html",
-      "status": "planned"
+      "status": "shipped",
+      "published": "2026-11-10"
     },
     {
       "id": "tucson-agriculture",
