@@ -67,6 +67,15 @@
       "city": "Tucson",
       "industry": "Agriculture",
       "path": "guides/tucson-agriculture.html",
+      "status": "shipped",
+      "published": "2026-11-11"
+    },
+    {
+      "id": "atlanta-film-production",
+      "title": "Atlanta Outdoor Film & Event Crews Heat Safety Plan",
+      "city": "Atlanta",
+      "industry": "Film & Events",
+      "path": "guides/atlanta-film-production.html",
       "status": "planned"
     }
   ]
