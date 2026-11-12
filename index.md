@@ -1,6 +1,6 @@
 # City × industry heat checklists that pair with digital WBGT.
 
-> City × industry heat checklists paired with GOES digital WBGT (wet-bulb globe temperature) and live heat-risk scores for outdoor crews.
+> Seven live heat illness prevention guides — Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, and Tucson agriculture — paired with GOES digital WBGT and live heat-risk scores.
 
 HTML version: https://heatready.goes.health/
 
@@ -14,9 +14,9 @@ roofing, landscaping, utilities, agriculture, and delivery crews — then points
 so crews act on more than air temperature alone. Print the checklist. Watch the score.
 Keep people safer.
 
-- [Read Phoenix Construction](https://heatready.goes.health/guides/phoenix-construction.md)
-- [Read Houston Roofing](https://heatready.goes.health/guides/houston-roofing.md)
-- [Browse directory](https://heatready.goes.health/guides/index.html)
+- [Browse all seven guides](https://heatready.goes.health/guides/index.html)
+- [Phoenix Construction](https://heatready.goes.health/guides/phoenix-construction.md)
+- [California Construction](https://heatready.goes.health/guides/california-construction-3395.md)
 - [Digital WBGT & live heat-risk scores](https://goes.health)
 
 ## Why this exists
@@ -28,7 +28,7 @@ delivers digital WBGT and live heat-risk scores.
 
 ### By city
 
-Phoenix, Houston, Las Vegas, Dallas, Miami, Tucson — climate and local context that matter on the ground.
+Phoenix, Houston, Las Vegas, California, Dallas, Miami, Tucson — climate and local context that matter on the ground.
 
 ### By industry
 
@@ -60,7 +60,7 @@ publicly available OSHA / NIOSH heat guidance and general state/local awareness.
 depend on federal, state, and local rules for your worksite. Confirm with your safety counsel or
 compliance team.
 
-## Featured & coming soon
+## Seven guides, live now
 
 Phoenix · Construction
 
@@ -82,9 +82,27 @@ Desert landscaping crews: early starts, dry-heat hydration, canopy placement, an
 
 California · Construction
 
-### Cal/OSHA 3395 Heat Plan Checklist
+### [California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)](https://heatready.goes.health/guides/california-construction-3395.md)
 
-Outdoor construction plan headings: water, shade, high-heat, acclimatization, emergency.
+Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes.
+
+Dallas · Utilities
+
+### [Dallas Utility Workers Heat Index Break Schedule & Acclimatization Guide](https://heatready.goes.health/guides/dallas-utilities.md)
+
+Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions.
+
+Miami · Delivery
+
+### [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md)
+
+Vehicle heat, stop-and-go work, humidity, hydration between stops.
+
+Tucson · Agriculture
+
+### [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md)
+
+Field crews: shade structures, high-heat rest cadence, monsoon season notes.
 
 [See full directory →](https://heatready.goes.health/guides/index.html)
 

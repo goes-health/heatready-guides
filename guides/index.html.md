@@ -1,6 +1,6 @@
 # Heat safety directory
 
-> Browse city × industry heat checklists that pair with GOES digital WBGT (wet-bulb globe temperature) and live heat-risk scores. Phoenix Construction, Houston Roofing, and Las Vegas Landscaping shipped; more cities coming.
+> Seven live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, and Tucson agriculture.
 
 HTML version: https://heatready.goes.health/guides/
 
@@ -9,7 +9,7 @@ One guide per city × industry. Printable checklists and trigger tables that pai
 
 - [Digital WBGT & live heat-risk scores](https://goes.health)
 
-## All planned guides
+## All guides
 
 Phoenix · Construction
 
