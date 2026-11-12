@@ -1,0 +1,4 @@
+{
+ "key": "bc5ae8d6128a53da9f9fcc3f2b35ea7b",
+ "note": "HeatReady IndexNow key; scripts/agents.py writes <key>.txt at site root. Submit with scripts/indexnow.py"
+}
