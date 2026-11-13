@@ -23,6 +23,7 @@ Base URL: https://heatready.goes.health/. Every HTML page has a Markdown twin: r
 - [Dallas Utility Workers Heat Index Break Schedule & Acclimatization Guide](https://heatready.goes.health/guides/dallas-utilities.md): Dallas · Utilities. Dallas utility crew heat guide: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions, paired with GOES digital WBGT and live heat-risk scores. Not legal advice.
 - [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md): Miami · Delivery. Miami delivery driver heat guide: humid-heat break cadence, vehicle cab and cargo heat, stop-and-go hydration, acclimatization ramp, paired with GOES digital WBGT and live heat-risk scores. Not legal advice.
 - [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md): Tucson · Agriculture. Tucson agriculture field guide: high-heat procedures at 95°F+, shade and water, rest cadence, monsoon humidity, acclimatization, paired with GOES digital WBGT and live heat-risk scores. Not legal advice.
+- [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md): Atlanta · Film & Events. Atlanta outdoor film and event crew heat safety plan: shade and water, rest cadence for long call times, humid Southeast summers, acclimatization, paired with GOES digital WBGT and live heat-risk scores. Not legal advice.
 
 ## Data
 

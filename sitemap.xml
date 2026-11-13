@@ -53,14 +53,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://heatready.goes.health/guides/atlanta-film-production.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://heatready.goes.health/llms.txt</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://heatready.goes.health/guides.json</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -113,6 +119,12 @@
   <url>
     <loc>https://heatready.goes.health/guides/tucson-agriculture.md</loc>
     <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://heatready.goes.health/guides/atlanta-film-production.md</loc>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

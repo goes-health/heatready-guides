@@ -1,6 +1,6 @@
 # Heat safety directory
 
-> Seven live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, and Tucson agriculture.
+> Eight live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, and Atlanta film & events.
 
 HTML version: https://heatready.goes.health/guides/
 
@@ -53,6 +53,12 @@ Tucson · Agriculture
 
 Field crews: shade structures, high-heat rest cadence, monsoon season notes.
 
+Atlanta · Film & Events
+
+### [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md)
+
+Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.
+
 Powered by GOES digital WBGT
 
 ## Digital WBGT & live heat-risk scores
@@ -76,6 +82,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Dallas Utility Workers Heat Index Break Schedule & Acclimatization Guide](https://heatready.goes.health/guides/dallas-utilities.md): Dallas · Utilities · published 2026-11-09
 - [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md): Miami · Delivery · published 2026-11-10
 - [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md): Tucson · Agriculture · published 2026-11-11
+- [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md): Atlanta · Film & Events · published 2026-11-13
 
 ---
 

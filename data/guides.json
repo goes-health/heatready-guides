@@ -76,7 +76,8 @@
       "city": "Atlanta",
       "industry": "Film & Events",
       "path": "guides/atlanta-film-production.html",
-      "status": "planned"
+      "status": "shipped",
+      "published": "2026-11-13"
     }
   ]
 }
