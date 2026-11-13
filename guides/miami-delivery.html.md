@@ -10,7 +10,7 @@ drivers. Pair the triggers with **GOES digital WBGT** (wet-bulb globe temperatur
 live heat-risk scores, because Miami humidity makes the real heat load higher than the air
 temperature suggests.
 
-- [Get live Miami WBGT / heat-risk scores](https://goes.health)
+- [Get live Miami WBGT / heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 **Not legal advice.** This page summarizes common heat-illness prevention practices
 aligned with publicly available OSHA / NIOSH-style guidance and general Florida / Miami heat
@@ -52,7 +52,7 @@ number. **Not a regulatory substitute.**
 | Above ~115°F | Extreme | Maximum controls; delay or reschedule non-urgent deliveries where feasible; keep cooling first aid and EMS readiness in mind for every route. |
 
 Heat-index bands mirror widely published NIOSH / OSHA heat-awareness charts. Direct sun, hot cargo areas, and humidity raise the effective heat load. Wet-bulb globe temperature (WBGT) accounts for humidity, radiant heat, and air movement. Pair these triggers with
-[GOES digital WBGT](https://goes.health) when you need a live score.
+[GOES digital WBGT](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) when you need a live score.
 
 ## Acclimatization ramp for new and returning drivers
 
@@ -104,15 +104,15 @@ Powered by GOES digital WBGT
 
 ## Get live Miami WBGT / heat-risk scores
 
-A checklist sets the plan. [GOES](https://goes.health) delivers
+A checklist sets the plan. [GOES](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) delivers
 **digital WBGT** (wet-bulb globe temperature) and live heat-risk scores
 for Miami delivery drivers, so you escalate water–rest–shade from a jobsite-relevant
 heat metric that accounts for humidity, sun, and route conditions, plus
-[platform](https://goes.health/platform) workflows that support documented
+[platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) workflows that support documented
 safety programs.
 
-- [Get live Miami WBGT scores](https://goes.health)
-- [GOES platform](https://goes.health/platform)
+- [Get live Miami WBGT scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
+- [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 GOES provides guidance. It is not a substitute for professional medical care.
 
@@ -136,7 +136,7 @@ No. It is an educational checklist. Your obligations depend on your size, worker
 
 ### How does GOES digital WBGT fit with this checklist?
 
-HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and live heat-risk scores so Miami dispatch can match cadence to today’s humidity and sun. See [goes.health](https://goes.health) and [goes.health/platform](https://goes.health/platform).
+HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and live heat-risk scores so Miami dispatch can match cadence to today’s humidity and sun. See [goes.health](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) and [goes.health/platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown).
 
 ## Related guides
 
@@ -151,4 +151,4 @@ HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and liv
 
 *Not legal advice. HeatReady Guides summarize common best practices aligned with publicly available OSHA / NIOSH heat guidance and general state/local awareness. Employers must follow applicable federal, state, and local rules for their worksite. GOES provides guidance. It is not a substitute for professional medical care.*
 
-HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health · Platform: https://goes.health/platform
+HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown · Platform: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown

@@ -23,6 +23,9 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from markdownify import markdownify
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from agent_utm import tag_text
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = os.environ.get("HEATREADY_BASE", "https://heatready.goes.health/")
 SITE = "HeatReady Guides"
@@ -364,6 +367,16 @@ def build():
     if os.path.exists(kp):
         key = json.load(open(kp))["key"]
         out[os.path.join(ROOT, f"{key}.txt")] = key
+
+    # Agent-referral tags on goes.health + app-store links, agent files only (HTML pages keep untagged links)
+    for path in list(out):
+        rel = os.path.relpath(path, ROOT)
+        if rel == "llms.txt":
+            out[path] = tag_text(out[path], "llms_txt", "heatready")
+        elif rel == "guides.json":
+            out[path] = tag_text(out[path], "agent_feed", "heatready", "guides_json")
+        elif rel.endswith(".md"):
+            out[path] = tag_text(out[path], "agent_feed", "heatready", "markdown")
     return out
 
 

@@ -17,7 +17,7 @@ Keep people safer.
 - [Browse all eight guides](https://heatready.goes.health/guides/index.html)
 - [Phoenix Construction](https://heatready.goes.health/guides/phoenix-construction.md)
 - [California Construction](https://heatready.goes.health/guides/california-construction-3395.md)
-- [Digital WBGT & live heat-risk scores](https://goes.health)
+- [Digital WBGT & live heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 ## Why this exists
 
@@ -46,14 +46,14 @@ Use HeatReady triggers with GOES digital WBGT when conditions climb.
 
 ### Digital WBGT from GOES
 
-Pair each guide with [GOES](https://goes.health) digital WBGT and live
+Pair each guide with [GOES](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) digital WBGT and live
 heat-risk scores so supervisors can escalate water–rest–shade from a live signal,
 not just the airport forecast.
 
 ### Plan + live score
 
 Static checklists set the program. Digital WBGT tells you when today’s worksite
-crossed into the next control band — see the [GOES platform](https://goes.health/platform).
+crossed into the next control band — see the [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown).
 
 **Not legal advice.** HeatReady Guides summarize common best practices aligned with
 publicly available OSHA / NIOSH heat guidance and general state/local awareness. Your obligations
@@ -116,14 +116,14 @@ Powered by GOES digital WBGT
 
 ## Digital WBGT & live heat-risk scores
 
-[**GOES**](https://goes.health) delivers digital wet-bulb globe
+[**GOES**](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) delivers digital wet-bulb globe
 temperature (WBGT) and live heat-risk scores — so outdoor crews escalate water, rest,
 and shade from a heat metric built for the jobsite, not air temperature alone.
-Explore the [GOES platform](https://goes.health/platform) for enterprise workflows
+Explore the [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) for enterprise workflows
 or the app for individuals and crews.
 
-- [Digital WBGT on goes.health](https://goes.health)
-- [GOES platform](https://goes.health/platform)
+- [Digital WBGT on goes.health](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
+- [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 GOES provides guidance. It is not a substitute for professional medical care.
 
@@ -142,4 +142,4 @@ GOES provides guidance. It is not a substitute for professional medical care.
 
 *Not legal advice. HeatReady Guides summarize common best practices aligned with publicly available OSHA / NIOSH heat guidance and general state/local awareness. Employers must follow applicable federal, state, and local rules for their worksite. GOES provides guidance. It is not a substitute for professional medical care.*
 
-HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health · Platform: https://goes.health/platform
+HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown · Platform: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown

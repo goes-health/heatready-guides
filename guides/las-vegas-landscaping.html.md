@@ -10,7 +10,7 @@ emergency steps. Brief the crew before a hot shift; pair checklist triggers with
 **GOES digital WBGT** (wet-bulb globe temperature) and live heat-risk scores
 when dry heat, reflected rock and asphalt, or monsoon humidity climb.
 
-- [Get live Las Vegas WBGT / heat-risk scores](https://goes.health)
+- [Get live Las Vegas WBGT / heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 **Not legal advice.** This page summarizes common heat-illness prevention practices
 aligned with publicly available OSHA / NIOSH-style guidance and general Nevada / Las Vegas
@@ -73,7 +73,7 @@ band — not only when the airport dry-bulb hits a round number.
 Heat-index bands mirror widely published NIOSH / OSHA heat-awareness charts used for outdoor work planning.
 Measure conditions at the worksite; open desert lots, rock mulch, and unshaded asphalt run hotter than the airport reading.
 Wet-bulb globe temperature (WBGT) accounts for humidity, radiant heat, and air movement — pair these
-checklist triggers with [GOES digital WBGT](https://goes.health) when you need a live score.
+checklist triggers with [GOES digital WBGT](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) when you need a live score.
 
 ## Local / regulatory note (high level)
 
@@ -109,15 +109,15 @@ Powered by GOES digital WBGT
 
 ## Get live Las Vegas WBGT / heat-risk scores
 
-A checklist sets the plan. [GOES](https://goes.health) delivers
+A checklist sets the plan. [GOES](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) delivers
 **digital WBGT** (wet-bulb globe temperature) and live heat-risk scores
 for Las Vegas landscaping crews — so you escalate water–rest–shade from a jobsite-relevant
 heat metric that accounts for dry air, monsoon humidity, and radiant ground load — plus
-[platform](https://goes.health/platform) workflows that support documented
+[platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) workflows that support documented
 safety programs.
 
-- [Get live Las Vegas WBGT scores](https://goes.health)
-- [GOES platform](https://goes.health/platform)
+- [Get live Las Vegas WBGT scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
+- [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 GOES provides guidance. It is not a substitute for professional medical care.
 
@@ -154,8 +154,8 @@ HeatReady Guides help you publish and brief a static plan. GOES adds digital WBG
 (wet-bulb globe temperature) and live heat-risk scores so Las Vegas landscaping crews
 can match checklist triggers to today’s dry heat, radiant ground, and any monsoon
 humidity — see
-[goes.health](https://goes.health) and
-[goes.health/platform](https://goes.health/platform).
+[goes.health](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) and
+[goes.health/platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown).
 
 ## Related guides
 
@@ -170,4 +170,4 @@ humidity — see
 
 *Not legal advice. HeatReady Guides summarize common best practices aligned with publicly available OSHA / NIOSH heat guidance and general state/local awareness. Employers must follow applicable federal, state, and local rules for their worksite. GOES provides guidance. It is not a substitute for professional medical care.*
 
-HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health · Platform: https://goes.health/platform
+HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown · Platform: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown

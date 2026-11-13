@@ -7,7 +7,7 @@ HTML version: https://heatready.goes.health/guides/
 One guide per city × industry. Printable checklists and trigger tables that pair with
 **GOES digital WBGT** (wet-bulb globe temperature) and live heat-risk scores — so crews escalate controls from a jobsite-relevant heat metric, not air temp alone.
 
-- [Digital WBGT & live heat-risk scores](https://goes.health)
+- [Digital WBGT & live heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 ## All guides
 
@@ -64,12 +64,12 @@ Powered by GOES digital WBGT
 ## Digital WBGT & live heat-risk scores
 
 Use HeatReady Guides to build the plan. Use
-[GOES](https://goes.health) digital WBGT (wet-bulb globe temperature) and
+[GOES](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) digital WBGT (wet-bulb globe temperature) and
 live heat-risk scores — plus
-[platform](https://goes.health/platform) workflows with documented safety records.
+[platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) workflows with documented safety records.
 
-- [Digital WBGT on goes.health](https://goes.health)
-- [GOES platform](https://goes.health/platform)
+- [Digital WBGT on goes.health](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
+- [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 GOES provides guidance. It is not a substitute for professional medical care.
 
@@ -88,4 +88,4 @@ GOES provides guidance. It is not a substitute for professional medical care.
 
 *Not legal advice. HeatReady Guides summarize common best practices aligned with publicly available OSHA / NIOSH heat guidance and general state/local awareness. Employers must follow applicable federal, state, and local rules for their worksite. GOES provides guidance. It is not a substitute for professional medical care.*
 
-HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health · Platform: https://goes.health/platform
+HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown · Platform: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown

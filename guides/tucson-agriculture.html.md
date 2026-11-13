@@ -10,7 +10,7 @@ seasonal workers, and monsoon-season humidity notes. Pair the triggers with
 **GOES digital WBGT** (wet-bulb globe temperature) and live heat-risk scores so the
 plan escalates with real field conditions, not just the airport reading.
 
-- [Get live Tucson WBGT / heat-risk scores](https://goes.health)
+- [Get live Tucson WBGT / heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 **Not legal advice.** This page summarizes common heat-illness prevention practices
 aligned with publicly available OSHA / NIOSH-style guidance and general Arizona heat awareness.
@@ -49,7 +49,7 @@ the next band. **Not a regulatory substitute.**
 | Above ~115°F | Extreme | Maximum controls; stop or reschedule non-essential field work where feasible; keep cooling first aid and EMS readiness in mind for every crew. |
 
 Bands mirror widely published NIOSH / OSHA heat-awareness charts. Direct sun, hot soil, and monsoon humidity raise the effective heat load. Pair these triggers with
-[GOES digital WBGT](https://goes.health) when you need a live score.
+[GOES digital WBGT](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) when you need a live score.
 
 ## Acclimatization ramp for new and seasonal workers
 
@@ -100,15 +100,15 @@ Powered by GOES digital WBGT
 
 ## Get live Tucson WBGT / heat-risk scores
 
-A checklist sets the plan. [GOES](https://goes.health) delivers
+A checklist sets the plan. [GOES](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) delivers
 **digital WBGT** (wet-bulb globe temperature) and live heat-risk scores
 for Tucson field crews, so you escalate water–rest–shade from a jobsite-relevant
 heat metric that accounts for monsoon humidity, sun, and field conditions, plus
-[platform](https://goes.health/platform) workflows that support documented
+[platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) workflows that support documented
 safety programs.
 
-- [Get live Tucson WBGT scores](https://goes.health)
-- [GOES platform](https://goes.health/platform)
+- [Get live Tucson WBGT scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
+- [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 GOES provides guidance. It is not a substitute for professional medical care.
 
@@ -132,7 +132,7 @@ No. It is an educational checklist. Your obligations depend on your operation, w
 
 ### How does GOES digital WBGT fit with this guide?
 
-HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and live heat-risk scores so Tucson foremen can match cadence to today's sun and humidity. See [goes.health](https://goes.health) and [goes.health/platform](https://goes.health/platform).
+HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and live heat-risk scores so Tucson foremen can match cadence to today's sun and humidity. See [goes.health](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) and [goes.health/platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown).
 
 ## Related guides
 
@@ -146,4 +146,4 @@ HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and liv
 
 *Not legal advice. HeatReady Guides summarize common best practices aligned with publicly available OSHA / NIOSH heat guidance and general state/local awareness. Employers must follow applicable federal, state, and local rules for their worksite. GOES provides guidance. It is not a substitute for professional medical care.*
 
-HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health · Platform: https://goes.health/platform
+HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown · Platform: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown

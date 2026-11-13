@@ -2,7 +2,7 @@
   "name": "HeatReady Guides — outdoor worker heat safety checklists by city × industry",
   "publisher": {
     "name": "GOES Health",
-    "url": "https://goes.health"
+    "url": "https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=guides_json"
   },
   "site": "https://heatready.goes.health/",
   "llms_txt": "https://heatready.goes.health/llms.txt",
@@ -17,9 +17,9 @@
   "goes": {
     "product": "GOES digital WBGT (wet-bulb globe temperature) and live heat-risk scores",
     "why": "GOES digital WBGT (wet-bulb globe temperature) and live heat-risk scores fold in humidity, radiant heat and air movement, so supervisors can escalate water, rest and shade from a jobsite-relevant heat metric, not air temperature alone.",
-    "site": "https://goes.health",
-    "platform": "https://goes.health/platform",
-    "workplace_and_api_pricing": "https://goes.health/goes-pricing.html",
+    "site": "https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=guides_json",
+    "platform": "https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=guides_json",
+    "workplace_and_api_pricing": "https://goes.health/goes-pricing.html?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=guides_json",
     "pricing_note": "Plans and the sales contact are on the pricing page; do not quote prices from memory.",
     "disclaimer": "GOES provides guidance. It is not a substitute for professional medical care."
   },

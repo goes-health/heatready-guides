@@ -76,3 +76,9 @@ python3 scripts/indexnow.py        # ping Bing/IndexNow with every live URL (no 
 Nightly order: write the new `guides/<id>.html` → set its `data/guides.json` entry to `"status": "shipped"` with `published` → `python3 scripts/agents.py` → commit/push → `python3 scripts/indexnow.py`. Only `shipped` guides whose HTML exists are published to agents.
 
 It writes: `llms.txt`, `guides.json` (public feed; `data/guides.json` stays internal), `index.md` / `guides/**/*.md` (+ `*.html.md` aliases), `robots.txt`, `sitemap.xml`, the IndexNow key file, and an `<!-- agents:start -->…<!-- agents:end -->` block in each page `<head>` (Markdown alternate link, `describedby` llms.txt, and home-page JSON-LD). Visible page copy is never touched. Requires `pip install -r scripts/requirements.txt` (beautifulsoup4, markdownify). Do not remove `CNAME`.
+
+### Agent-referral tags (scripts/agent_utm.py)
+Links to goes.health and the app stores inside agent files only (llms.txt, the JSON feed, Markdown twins) are tagged automatically by the generator — never hand-edit them, and keep HTML links untagged:
+- goes.health: `utm_source=llms_txt|agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown|<feed>_json`
+- Google Play: `&referrer=<url-encoded utm string>` (Play Console › Acquisition)
+- App Store: `?ct=heatready_<source>&mt=8` (add `pt=` via env `GOES_APPSTORE_PT` once the App Store Connect provider ID is known)

@@ -10,7 +10,7 @@ training. Use it to brief a crew and to sanity-check your written plan, then pai
 **GOES digital WBGT** (wet-bulb globe temperature) and live heat-risk scores when
 conditions on the slab, deck, or roof are worse than the forecast.
 
-- [Get live California WBGT / heat-risk scores](https://goes.health)
+- [Get live California WBGT / heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 **Not legal advice.** This page is a plain-language summary of publicly available
 Cal/OSHA heat-illness prevention requirements and general OSHA / NIOSH-style practice. It is not a
@@ -62,7 +62,7 @@ into the next band, not only when the air temperature hits a round number.
 
 Measure conditions at the worksite; slabs, roofs, and pavement run hotter than the forecast.
 Wet-bulb globe temperature (WBGT) accounts for humidity, sun, and air movement. Pair these triggers
-with [GOES digital WBGT](https://goes.health) when you need a live score.
+with [GOES digital WBGT](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) when you need a live score.
 
 ## Local / regulatory note (high level)
 
@@ -91,15 +91,15 @@ Powered by GOES digital WBGT
 
 ## Get live California WBGT / heat-risk scores
 
-A checklist sets the plan. [GOES](https://goes.health) delivers
+A checklist sets the plan. [GOES](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) delivers
 **digital WBGT** (wet-bulb globe temperature) and live heat-risk scores
 for California construction crews — so you escalate water–rest–shade from a jobsite-relevant
 heat metric that accounts for humidity, sun, and radiant load off slabs, steel, and pavement — plus
-[platform](https://goes.health/platform) workflows that support documented
+[platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) workflows that support documented
 safety programs.
 
-- [Get live California WBGT scores](https://goes.health)
-- [GOES platform](https://goes.health/platform)
+- [Get live California WBGT scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
+- [GOES platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
 
 GOES provides guidance. It is not a substitute for professional medical care.
 
@@ -123,7 +123,7 @@ Yes. Early starts help, but heat builds fast on slabs and roofs and many shifts 
 
 ### How does GOES digital WBGT fit with this checklist?
 
-HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and live heat-risk scores so California crews can match checklist triggers to today’s conditions. See [goes.health](https://goes.health) and [goes.health/platform](https://goes.health/platform).
+HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and live heat-risk scores so California crews can match checklist triggers to today’s conditions. See [goes.health](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown) and [goes.health/platform](https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown).
 
 ## Related guides
 
@@ -138,4 +138,4 @@ HeatReady Guides give you a static plan to brief. GOES adds digital WBGT and liv
 
 *Not legal advice. HeatReady Guides summarize common best practices aligned with publicly available OSHA / NIOSH heat guidance and general state/local awareness. Employers must follow applicable federal, state, and local rules for their worksite. GOES provides guidance. It is not a substitute for professional medical care.*
 
-HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health · Platform: https://goes.health/platform
+HeatReady Guides by GOES Health · Agent overview: https://heatready.goes.health/llms.txt · Guides feed (JSON): https://heatready.goes.health/guides.json · Digital WBGT: https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown · Platform: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown
