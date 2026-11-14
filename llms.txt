@@ -30,6 +30,12 @@ Base URL: https://heatready.goes.health/. Every HTML page has a Markdown twin: r
 
 - [Guides feed (JSON)](https://heatready.goes.health/guides.json): One object per shipped guide: title, city, industry, URLs, summary, checklist, official sources; plus a goes object and disclaimers
 - [Sitemap](https://heatready.goes.health/sitemap.xml): All HTML pages and Markdown twins
+- [Full text (llms-full.txt)](https://heatready.goes.health/llms-full.txt): Every Markdown page in one file
+
+## Connect as a tool (MCP)
+
+- [GOES MCP server](https://goes-mcp.goes-health.workers.dev/mcp): Free, read-only remote MCP server (Streamable HTTP, no auth). Tools include list_heat_guides, get_heat_guide, get_nws_forecast_and_alerts (live NWS heat alerts) and get_outdoor_safety_guidance. Listed in the official MCP Registry as `health.goes/goes-mcp`
+- [Server card](https://goes-mcp.goes-health.workers.dev/mcp/server-card): MCP Server Card (connection metadata)
 
 ## GOES digital WBGT
 

@@ -1,0 +1,10 @@
+{
+  "specVersion": "1.0",
+  "entries": [
+    {
+      "identifier": "urn:air:goes.health:mcp:goes-mcp",
+      "type": "application/mcp-server-card+json",
+      "url": "https://goes-mcp.goes-health.workers.dev/mcp/server-card"
+    }
+  ]
+}

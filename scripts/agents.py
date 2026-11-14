@@ -8,7 +8,9 @@ Emits (all at the site root, https://heatready.goes.health/):
   llms.txt                      llms.txt overview for AI assistants (https://llmstxt.org/)
   index.md, guides/**/*.md      clean Markdown twin of every public HTML page (+ *.html.md aliases)
   guides.json                   stable public JSON feed of shipped guides (NOT data/guides.json)
+  llms-full.txt                 every Markdown page in one file
   robots.txt                    allows search, user-fetch and training AI crawlers
+  .well-known/ai-catalog.json   AI Catalog (MCP Server Card discovery, SEP-2127; beta) for the GOES MCP server
   sitemap.xml                   HTML pages + Markdown twins + llms.txt + feed (shipped guides only)
   <indexnow-key>.txt            IndexNow key file (key in data/indexnow.json)
 It also (idempotently) adds <link rel="alternate" type="text/markdown"> and
@@ -40,7 +42,10 @@ WBGT_LINE = ("GOES digital WBGT (wet-bulb globe temperature) and live heat-risk 
              "movement, so supervisors can escalate water, rest and shade from a jobsite-relevant heat metric, not air temperature alone.")
 BOTS = ["OAI-SearchBot", "ChatGPT-User", "GPTBot", "Claude-SearchBot", "Claude-User", "ClaudeBot",
         "PerplexityBot", "Perplexity-User", "Googlebot", "Google-Extended", "Bingbot", "Applebot",
-        "Applebot-Extended", "DuckDuckBot"]
+        "Applebot-Extended", "DuckDuckBot", "DuckAssistBot", "CCBot", "Meta-ExternalAgent", "Meta-ExternalFetcher",
+        "MistralAI-User", "Amazonbot", "cohere-ai"]
+MCP_URL = "https://goes-mcp.goes-health.workers.dev/mcp"
+MCP_CARD = "https://goes-mcp.goes-health.workers.dev/mcp/server-card"
 SKIP_SOURCE_HOSTS = ("goes.health", "amazon.com", "heatready.goes.health")
 MARK_START, MARK_END = "<!-- agents:start -->", "<!-- agents:end -->"
 
@@ -250,6 +255,29 @@ def home_jsonld(shipped):
     return '  <script type="application/ld+json">\n' + js + "\n  </script>"
 
 
+def guide_jsonld(g):
+    """Article + BreadcrumbList for one shipped guide (head only, invisible). Facts come from the page itself."""
+    org = {"@type": "Organization", "name": "GOES Health", "url": GOES_SITE}
+    url = g["url"]
+    data = {"@context": "https://schema.org", "@graph": [
+        {"@type": "Article", "@id": url + "#article", "headline": g["headline"][:110], "name": g["title"], "description": g["summary"],
+         "url": url, "mainEntityOfPage": url, "inLanguage": "en", "datePublished": g.get("published"),
+         "author": org, "publisher": org, "isAccessibleForFree": True,
+         "about": [{"@type": "Thing", "name": "Heat illness prevention"}, {"@type": "Place", "name": g["city"]}],
+         "audience": {"@type": "Audience", "audienceType": f'{g["industry"]} supervisors and outdoor workers'},
+         "isPartOf": {"@type": "WebSite", "@id": BASE + "#website", "name": SITE, "url": BASE},
+         "citation": [s["url"] for s in g["official_sources"][:10]],
+         "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown", "contentUrl": g["markdown_url"]}},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE, "item": BASE},
+            {"@type": "ListItem", "position": 2, "name": "Guides", "item": BASE + "guides/"},
+            {"@type": "ListItem", "position": 3, "name": g["title"], "item": url}]},
+    ]}
+    data["@graph"][0] = {k: v for k, v in data["@graph"][0].items() if v not in (None, "", [])}
+    js = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
+    return '  <script type="application/ld+json">\n' + js + "\n  </script>"
+
+
 # ---------------------------------------------------------------- main
 def build():
     D, shipped = load_data()
@@ -258,11 +286,14 @@ def build():
     out = {}
 
     # head links + JSON-LD
+    by_path = {g["path"]: g for g in shipped}
     for pg in pages:
-        path, text = inject_head(pg, home_jsonld(shipped) if pg == "index.html" else "")
+        extra = home_jsonld(shipped) if pg == "index.html" else (guide_jsonld(extract_guide(by_path[pg])) if pg in by_path else "")
+        path, text = inject_head(pg, extra)
         out[path] = text
 
     # markdown twins
+    full_md = []
     for pg in pages:
         title, desc, head, body = page_markdown(pg, sp)
         parts = [head, "", f"> {desc}" if desc else f"> {title}", "", f"HTML version: {url_of(pg)}", "", body, ""]
@@ -272,6 +303,7 @@ def build():
         md = "\n".join(parts)
         out[os.path.join(ROOT, md_of(pg))] = md
         out[os.path.join(ROOT, pg + ".md")] = md
+        full_md.append((md_url(pg), md))
 
     # public feed
     today = max((g.get("published") or "") for g in shipped) if shipped else None
@@ -327,6 +359,10 @@ def build():
         "", "## Data", "",
         f"- [Guides feed (JSON)]({BASE}guides.json): One object per shipped guide: title, city, industry, URLs, summary, checklist, official sources; plus a goes object and disclaimers",
         f"- [Sitemap]({BASE}sitemap.xml): All HTML pages and Markdown twins",
+        f"- [Full text (llms-full.txt)]({BASE}llms-full.txt): Every Markdown page in one file",
+        "", "## Connect as a tool (MCP)", "",
+        f"- [GOES MCP server]({MCP_URL}): Free, read-only remote MCP server (Streamable HTTP, no auth). Tools include list_heat_guides, get_heat_guide, get_nws_forecast_and_alerts (live NWS heat alerts) and get_outdoor_safety_guidance. Listed in the official MCP Registry as `health.goes/goes-mcp`",
+        f"- [Server card]({MCP_CARD}): MCP Server Card (connection metadata)",
         "", "## GOES digital WBGT", "",
         f"- [GOES]({GOES_SITE}): Digital WBGT and live heat-risk scores",
         f"- [GOES platform]({GOES_PLATFORM}): Workplace and enterprise workflows",
@@ -336,6 +372,16 @@ def build():
         "",
     ]
     out[os.path.join(ROOT, "llms.txt")] = "\n".join(L)
+
+    # llms-full.txt
+    head = [f"# {SITE} by GOES Health: full text", "",
+            f"> Every HeatReady Markdown page in one file for AI assistants. Index: {BASE}llms.txt · Feed: {BASE}guides.json · MCP: {MCP_URL}", ""]
+    out[os.path.join(ROOT, "llms-full.txt")] = "\n".join(head) + "\n" + "\n\n".join(
+        f"<!-- source: {u} -->\n\n{t.strip()}\n" for u, t in full_md)
+
+    # AI Catalog (domain-level MCP discovery)
+    out[os.path.join(ROOT, ".well-known", "ai-catalog.json")] = json.dumps({"specVersion": "1.0", "entries": [
+        {"identifier": "urn:air:goes.health:mcp:goes-mcp", "type": "application/mcp-server-card+json", "url": MCP_CARD}]}, indent=2) + "\n"
     # official links the llms.txt cites must also be cited by the pages; checked below in check_llms_sources
 
     # robots.txt
@@ -356,7 +402,7 @@ def build():
     S = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
          u(BASE, None, "weekly", "1.0"), u(BASE + "guides/", None, "weekly", "0.9")]
     S += [u(url_of(g["path"]), g.get("published")) for g in shipped]
-    S += [u(BASE + "llms.txt", today, "weekly", "0.7"), u(BASE + "guides.json", today, "weekly", "0.6"),
+    S += [u(BASE + "llms.txt", today, "weekly", "0.7"), u(BASE + "llms-full.txt", today, "weekly", "0.6"), u(BASE + "guides.json", today, "weekly", "0.6"),
           u(BASE + "index.md", None, "weekly", "0.5"), u(BASE + "guides/index.md", None, "weekly", "0.5")]
     S += [u(md_url(g["path"]), g.get("published"), "monthly", "0.5") for g in shipped]
     S.append("</urlset>")
@@ -371,7 +417,7 @@ def build():
     # Agent-referral tags on goes.health + app-store links, agent files only (HTML pages keep untagged links)
     for path in list(out):
         rel = os.path.relpath(path, ROOT)
-        if rel == "llms.txt":
+        if rel in ("llms.txt", "llms-full.txt"):
             out[path] = tag_text(out[path], "llms_txt", "heatready")
         elif rel == "guides.json":
             out[path] = tag_text(out[path], "agent_feed", "heatready", "guides_json")
