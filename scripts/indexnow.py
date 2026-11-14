@@ -10,7 +10,7 @@ from agents import BASE, ROOT, load_data, url_of, md_url
 
 key = json.load(open(os.path.join(ROOT, "data", "indexnow.json")))["key"]
 _, shipped = load_data()
-urls = [BASE, BASE + "index.md", BASE + "llms.txt", BASE + "guides.json", BASE + "sitemap.xml",
+urls = [BASE, BASE + "index.md", BASE + "llms.txt", BASE + "llms-full.txt", BASE + "guides.json", BASE + "sitemap.xml",
         BASE + "robots.txt", BASE + "guides/", BASE + "guides/index.md"]
 for g in shipped:
     urls += [url_of(g["path"]), md_url(g["path"])]
