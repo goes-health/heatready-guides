@@ -1,6 +1,6 @@
 # City × industry heat checklists that pair with digital WBGT.
 
-> Eight live heat illness prevention guides — Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, and Atlanta film & events — paired with GOES digital WBGT and live heat-risk scores.
+> Nine live heat illness prevention guides — Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, and Atlanta film & events, and San Antonio oil & gas — paired with GOES digital WBGT and live heat-risk scores.
 
 HTML version: https://heatready.goes.health/
 
@@ -14,7 +14,7 @@ roofing, landscaping, utilities, agriculture, and delivery crews — then points
 so crews act on more than air temperature alone. Print the checklist. Watch the score.
 Keep people safer.
 
-- [Browse all eight guides](https://heatready.goes.health/guides/index.html)
+- [Browse all nine guides](https://heatready.goes.health/guides/index.html)
 - [Phoenix Construction](https://heatready.goes.health/guides/phoenix-construction.md)
 - [California Construction](https://heatready.goes.health/guides/california-construction-3395.md)
 - [Digital WBGT & live heat-risk scores](https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=heatready&utm_content=markdown)
@@ -28,7 +28,7 @@ delivers digital WBGT and live heat-risk scores.
 
 ### By city
 
-Phoenix, Houston, Las Vegas, California, Dallas, Miami, Tucson, Atlanta — climate and local context that matter on the ground.
+Phoenix, Houston, Las Vegas, California, Dallas, Miami, Tucson, Atlanta, San Antonio — climate and local context that matter on the ground.
 
 ### By industry
 
@@ -60,7 +60,7 @@ publicly available OSHA / NIOSH heat guidance and general state/local awareness.
 depend on federal, state, and local rules for your worksite. Confirm with your safety counsel or
 compliance team.
 
-## Eight guides, live now
+## Nine guides, live now
 
 Phoenix · Construction
 
@@ -110,6 +110,12 @@ Atlanta · Film & Events
 
 Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.
 
+San Antonio · Oil & Gas
+
+### [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md)
+
+Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.
+
 [See full directory →](https://heatready.goes.health/guides/index.html)
 
 Powered by GOES digital WBGT
@@ -137,6 +143,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md): Miami · Delivery · published 2026-11-10
 - [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md): Tucson · Agriculture · published 2026-11-11
 - [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md): Atlanta · Film & Events · published 2026-11-13
+- [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md): San Antonio · Oil & Gas · published 2026-11-14
 
 ---
 

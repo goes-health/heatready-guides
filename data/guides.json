@@ -78,6 +78,15 @@
       "path": "guides/atlanta-film-production.html",
       "status": "shipped",
       "published": "2026-11-13"
+    },
+    {
+      "id": "san-antonio-oil-gas",
+      "title": "San Antonio Oil & Gas Field Crews Heat Safety Plan",
+      "city": "San Antonio",
+      "industry": "Oil & Gas",
+      "path": "guides/san-antonio-oil-gas.html",
+      "status": "shipped",
+      "published": "2026-11-14"
     }
   ]
 }

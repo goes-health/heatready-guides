@@ -1,6 +1,6 @@
 # Heat safety directory
 
-> Eight live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, and Atlanta film & events.
+> Nine live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, Atlanta film & events, and San Antonio oil & gas.
 
 HTML version: https://heatready.goes.health/guides/
 
@@ -59,6 +59,12 @@ Atlanta · Film & Events
 
 Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.
 
+San Antonio · Oil & Gas
+
+### [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md)
+
+Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.
+
 Powered by GOES digital WBGT
 
 ## Digital WBGT & live heat-risk scores
@@ -83,6 +89,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md): Miami · Delivery · published 2026-11-10
 - [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md): Tucson · Agriculture · published 2026-11-11
 - [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md): Atlanta · Film & Events · published 2026-11-13
+- [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md): San Antonio · Oil & Gas · published 2026-11-14
 
 ---
 
