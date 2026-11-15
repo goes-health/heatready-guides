@@ -87,6 +87,15 @@
       "path": "guides/san-antonio-oil-gas.html",
       "status": "shipped",
       "published": "2026-11-14"
+    },
+    {
+      "id": "orlando-landscaping",
+      "title": "Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks",
+      "city": "Orlando",
+      "industry": "Landscaping",
+      "path": "guides/orlando-landscaping.html",
+      "status": "shipped",
+      "published": "2026-11-15"
     }
   ]
 }

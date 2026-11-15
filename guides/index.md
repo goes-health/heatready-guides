@@ -1,6 +1,6 @@
 # Heat safety directory
 
-> Nine live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, Atlanta film & events, and San Antonio oil & gas.
+> Ten live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, Atlanta film & events, and San Antonio oil & gas.
 
 HTML version: https://heatready.goes.health/guides/
 
@@ -65,6 +65,12 @@ San Antonio · Oil & Gas
 
 Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.
 
+Orlando · Landscaping
+
+### [Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/orlando-landscaping.md)
+
+Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers.
+
 Powered by GOES digital WBGT
 
 ## Digital WBGT & live heat-risk scores
@@ -90,6 +96,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md): Tucson · Agriculture · published 2026-11-11
 - [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md): Atlanta · Film & Events · published 2026-11-13
 - [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md): San Antonio · Oil & Gas · published 2026-11-14
+- [Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/orlando-landscaping.md): Orlando · Landscaping · published 2026-11-15
 
 ---
 
