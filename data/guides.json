@@ -96,6 +96,15 @@
       "path": "guides/orlando-landscaping.html",
       "status": "shipped",
       "published": "2026-11-15"
+    },
+    {
+      "id": "tampa-roofing",
+      "title": "Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks",
+      "city": "Tampa",
+      "industry": "Roofing",
+      "path": "guides/tampa-roofing.html",
+      "status": "shipped",
+      "published": "2026-11-15"
     }
   ]
 }

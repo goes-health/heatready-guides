@@ -151,6 +151,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md): Atlanta · Film & Events · published 2026-11-13
 - [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md): San Antonio · Oil & Gas · published 2026-11-14
 - [Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/orlando-landscaping.md): Orlando · Landscaping · published 2026-11-15
+- [Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks](https://heatready.goes.health/guides/tampa-roofing.md): Tampa · Roofing · published 2026-11-15
 
 ---
 

@@ -574,6 +574,61 @@
       ],
       "local_regulatory_note": "Employers have a general duty under federal OSHA law to protect workers from recognized hazards, including heat. Check the current federal and Florida requirements, and any client, property manager, or contract rules that apply to your crew, rather than relying on this page. Landscaping crews often work under several clients and subcontractors in one week. Clarify in writing who provides water, shade, and training, and keep a training log. This is general awareness only, not legal advice and not a compliance guarantee. Verify current federal and Florida requirements with counsel or your safety lead.",
       "official_sources": []
+    },
+    {
+      "id": "tampa-roofing",
+      "title": "Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks",
+      "headline": "Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks",
+      "city": "Tampa",
+      "industry": "Roofing",
+      "published": "2026-11-15",
+      "url": "https://heatready.goes.health/guides/tampa-roofing.html",
+      "markdown_url": "https://heatready.goes.health/guides/tampa-roofing.md",
+      "summary": "Tampa roofing crew heat safety plan: roof-deck heat, water and shade at the ladder, rest cadence for humid Tampa Bay summers, acclimatization, paired with GOES digital WBGT and live heat-risk scores. Not legal advice.",
+      "lead": "A field-ready heat plan for Tampa roofing crews: tear-off, install and repair work on sun-baked roof decks in hot, humid Tampa Bay weather, with water and shade staged at the ladder and an acclimatization ramp for new hires and seasonal crew. Pair the triggers with GOES digital WBGT (wet-bulb globe temperature) and live heat-risk scores so your plan follows real conditions at the roof, not just the airport reading.",
+      "sections": [
+        "Tampa summer risk: humid air plus a hot roof deck",
+        "Heat cadence for roofing crews",
+        "Acclimatization ramp for new and returning crew",
+        "Crew checklist",
+        "Local / regulatory note (high level)",
+        "Heat gear (partner links TBD)",
+        "Get live Tampa WBGT / heat-risk scores",
+        "Quick answers for Tampa roofing crews",
+        "Related guides"
+      ],
+      "checklist": [
+        {
+          "item": "Cool water at the ladder and on the roof",
+          "detail": "Plenty of cool potable water at ground staging and reachable from the deck, not only in the truck. Aim for about 1 quart (32 oz) per hour in heavy heat, in small sips every 15–20 minutes, not just when thirsty."
+        },
+        {
+          "item": "Shade you can actually use",
+          "detail": "Open decks have almost no shade, so stage a canopy, trailer or vehicle shade at ground level large enough for the crew at once. Breaks only count if workers cool down there."
+        },
+        {
+          "item": "Early start, heavy work first",
+          "detail": "Where the job allows, schedule tear-off and material carrying for cooler hours and leave lighter tasks for the afternoon peak. Rotate people between ridge, eave and ground tasks."
+        },
+        {
+          "item": "Buddy checks",
+          "detail": "Pair workers and check for confusion, heavy sweating, cramps, nausea, or stopped sweating. A worker who stops sweating or acts confused needs emergency help, and getting them down safely needs a plan."
+        },
+        {
+          "item": "Clothing, harness and sun",
+          "detail": "Light, loose, breathable layers, wide-brim or hard-hat brims, and sun protection. Harnesses and gloves raise heat load, so build in more cool-down time."
+        },
+        {
+          "item": "Emergency plan",
+          "detail": "Write the job address on the crew sheet, name who calls EMS, and plan how an ill worker is brought down from the roof. Know cooling first aid before help arrives."
+        },
+        {
+          "item": "Training in the crew's language",
+          "detail": "Cover symptoms, water, breaks, and how to report a problem without retaliation, in the languages the crew understands, including English and Spanish."
+        }
+      ],
+      "local_regulatory_note": "Employers have a general duty under federal OSHA law to protect workers from recognized hazards, including heat. Check the current federal and Florida requirements, and any client, property manager, or contract rules that apply to your crew, rather than relying on this page. Roofing crews often work under general contractors, homeowners and subcontractors in one week. Clarify in writing who provides water, shade, and training, and keep a training log. This is general awareness only, not legal advice and not a compliance guarantee. Verify current federal and Florida requirements with counsel or your safety lead.",
+      "official_sources": []
     }
   ]
 }
