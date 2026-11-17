@@ -105,6 +105,15 @@
       "path": "guides/tampa-roofing.html",
       "status": "shipped",
       "published": "2026-11-15"
+    },
+    {
+      "id": "charlotte-construction",
+      "title": "Charlotte Construction Crew Heat Safety Plan: Humidity, Shade & Water Breaks",
+      "city": "Charlotte",
+      "industry": "Construction",
+      "path": "guides/charlotte-construction.html",
+      "status": "shipped",
+      "published": "2026-11-16"
     }
   ]
 }

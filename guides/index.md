@@ -77,6 +77,12 @@ Tampa · Roofing
 
 Tear-off and install crews: ladder shade, roof-deck water and rest cadence, humid Tampa Bay summers.
 
+Charlotte · Construction
+
+### [Charlotte Construction Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/charlotte-construction.md)
+
+Framing, concrete and sitework crews: laydown-yard shade, water and rest cadence, humid Piedmont summers.
+
 Powered by GOES digital WBGT
 
 ## Digital WBGT & live heat-risk scores
@@ -104,6 +110,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md): San Antonio · Oil & Gas · published 2026-11-14
 - [Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/orlando-landscaping.md): Orlando · Landscaping · published 2026-11-15
 - [Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks](https://heatready.goes.health/guides/tampa-roofing.md): Tampa · Roofing · published 2026-11-15
+- [Charlotte Construction Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/charlotte-construction.md): Charlotte · Construction · published 2026-11-16
 
 ---
 
