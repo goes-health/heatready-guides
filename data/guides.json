@@ -114,6 +114,15 @@
       "path": "guides/charlotte-construction.html",
       "status": "shipped",
       "published": "2026-11-16"
+    },
+    {
+      "id": "jacksonville-utilities",
+      "title": "Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat & Water Breaks",
+      "city": "Jacksonville",
+      "industry": "Utilities",
+      "path": "guides/jacksonville-utilities.html",
+      "status": "shipped",
+      "published": "2026-11-17"
     }
   ]
 }
