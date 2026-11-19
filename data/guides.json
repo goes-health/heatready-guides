@@ -123,6 +123,15 @@
       "path": "guides/jacksonville-utilities.html",
       "status": "shipped",
       "published": "2026-11-17"
+    },
+    {
+      "id": "austin-landscaping",
+      "title": "Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade & Water Breaks",
+      "city": "Austin",
+      "industry": "Landscaping",
+      "path": "guides/austin-landscaping.html",
+      "status": "shipped",
+      "published": "2026-11-18"
     }
   ]
 }

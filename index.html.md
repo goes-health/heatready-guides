@@ -154,6 +154,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks](https://heatready.goes.health/guides/tampa-roofing.md): Tampa · Roofing · published 2026-11-15
 - [Charlotte Construction Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/charlotte-construction.md): Charlotte · Construction · published 2026-11-16
 - [Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat & Water Breaks](https://heatready.goes.health/guides/jacksonville-utilities.md): Jacksonville · Utilities · published 2026-11-17
+- [Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade & Water Breaks](https://heatready.goes.health/guides/austin-landscaping.md): Austin · Landscaping · published 2026-11-18
 
 ---
 
