@@ -132,6 +132,15 @@
       "path": "guides/austin-landscaping.html",
       "status": "shipped",
       "published": "2026-11-18"
+    },
+    {
+      "id": "nashville-landscaping",
+      "title": "Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade & Water Breaks",
+      "city": "Nashville",
+      "industry": "Landscaping",
+      "path": "guides/nashville-landscaping.html",
+      "status": "shipped",
+      "published": "2026-11-19"
     }
   ]
 }
