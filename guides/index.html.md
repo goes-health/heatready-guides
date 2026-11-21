@@ -11,101 +11,117 @@ One guide per city × industry. Printable checklists and trigger tables that pai
 
 ## All guides
 
-Phoenix · Construction
-
-### [Phoenix Construction Heat Illness Prevention Checklist (2026)](https://heatready.goes.health/guides/phoenix-construction.md)
-
-Summer climate snapshot, full checklist, high-heat table, Arizona / Phoenix contractor context.
+### Construction
 
 Memphis · Construction
 
-### [Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade & Water Breaks](https://heatready.goes.health/guides/memphis-construction.md)
+#### [Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade & Water Breaks](https://heatready.goes.health/guides/memphis-construction.md)
 
 Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Mid-South summers.
 
-Nashville · Landscaping
-
-### [Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade & Water Breaks](https://heatready.goes.health/guides/nashville-landscaping.md)
-
-Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot, humid Middle Tennessee summers.
-
-Houston · Roofing
-
-### [Houston Roofing Crew Heat Safety Plan: Water, Rest, Shade Triggers](https://heatready.goes.health/guides/houston-roofing.md)
-
-Roof-deck radiant heat, limited shade, humidity-adjusted break schedules, GOES digital WBGT triggers.
-
-Las Vegas · Landscaping
-
-### [Las Vegas Landscaping Heat Illness Prevention Guide](https://heatready.goes.health/guides/las-vegas-landscaping.md)
-
-Desert landscaping: canopy placement, early starts, dry-heat hydration, GOES digital WBGT triggers.
-
-California · Construction
-
-### [California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)](https://heatready.goes.health/guides/california-construction-3395.md)
-
-Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes.
-
-Dallas · Utilities
-
-### [Dallas Utility Workers Heat Index Break Schedule & Acclimatization Guide](https://heatready.goes.health/guides/dallas-utilities.md)
-
-Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions.
-
-Miami · Delivery
-
-### [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md)
-
-Vehicle heat, stop-and-go work, humidity, hydration between stops.
-
-Tucson · Agriculture
-
-### [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md)
-
-Field crews: shade structures, high-heat rest cadence, monsoon season notes.
-
-Atlanta · Film & Events
-
-### [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md)
-
-Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.
-
-San Antonio · Oil & Gas
-
-### [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md)
-
-Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.
-
-Orlando · Landscaping
-
-### [Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/orlando-landscaping.md)
-
-Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers.
-
-Tampa · Roofing
-
-### [Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks](https://heatready.goes.health/guides/tampa-roofing.md)
-
-Tear-off and install crews: ladder shade, roof-deck water and rest cadence, humid Tampa Bay summers.
-
 Charlotte · Construction
 
-### [Charlotte Construction Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/charlotte-construction.md)
+#### [Charlotte Construction Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/charlotte-construction.md)
 
 Framing, concrete and sitework crews: laydown-yard shade, water and rest cadence, humid Piedmont summers.
 
-Jacksonville · Utilities
+California · Construction
 
-### [Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat & Water Breaks](https://heatready.goes.health/guides/jacksonville-utilities.md)
+#### [California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)](https://heatready.goes.health/guides/california-construction-3395.md)
 
-Line, underground and service crews: water and shade at the truck, rest cadence and mutual-aid acclimatization for humid North Florida summers.
+Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes.
+
+Phoenix · Construction
+
+#### [Phoenix Construction Heat Illness Prevention Checklist (2026)](https://heatready.goes.health/guides/phoenix-construction.md)
+
+Summer climate snapshot, full checklist, high-heat table, Arizona / Phoenix contractor context.
+
+### Landscaping
+
+Nashville · Landscaping
+
+#### [Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade & Water Breaks](https://heatready.goes.health/guides/nashville-landscaping.md)
+
+Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot, humid Middle Tennessee summers.
 
 Austin · Landscaping
 
-### [Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade & Water Breaks](https://heatready.goes.health/guides/austin-landscaping.md)
+#### [Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade & Water Breaks](https://heatready.goes.health/guides/austin-landscaping.md)
 
 Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot Central Texas summers.
+
+Orlando · Landscaping
+
+#### [Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/orlando-landscaping.md)
+
+Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers.
+
+Las Vegas · Landscaping
+
+#### [Las Vegas Landscaping Heat Illness Prevention Guide](https://heatready.goes.health/guides/las-vegas-landscaping.md)
+
+Desert landscaping: canopy placement, early starts, dry-heat hydration, GOES digital WBGT triggers.
+
+### Roofing
+
+Tampa · Roofing
+
+#### [Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water & Shade Breaks](https://heatready.goes.health/guides/tampa-roofing.md)
+
+Tear-off and install crews: ladder shade, roof-deck water and rest cadence, humid Tampa Bay summers.
+
+Houston · Roofing
+
+#### [Houston Roofing Crew Heat Safety Plan: Water, Rest, Shade Triggers](https://heatready.goes.health/guides/houston-roofing.md)
+
+Roof-deck radiant heat, limited shade, humidity-adjusted break schedules, GOES digital WBGT triggers.
+
+### Utilities
+
+Jacksonville · Utilities
+
+#### [Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat & Water Breaks](https://heatready.goes.health/guides/jacksonville-utilities.md)
+
+Line, underground and service crews: water and shade at the truck, rest cadence and mutual-aid acclimatization for humid North Florida summers.
+
+Dallas · Utilities
+
+#### [Dallas Utility Workers Heat Index Break Schedule & Acclimatization Guide](https://heatready.goes.health/guides/dallas-utilities.md)
+
+Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions.
+
+### Agriculture
+
+Tucson · Agriculture
+
+#### [Tucson Agriculture High-Heat Procedures (95°F+) Field Guide](https://heatready.goes.health/guides/tucson-agriculture.md)
+
+Field crews: shade structures, high-heat rest cadence, monsoon season notes.
+
+### Delivery
+
+Miami · Delivery
+
+#### [Miami Delivery Driver Heat Illness Prevention Checklist](https://heatready.goes.health/guides/miami-delivery.md)
+
+Vehicle heat, stop-and-go work, humidity, hydration between stops.
+
+### Film & Events
+
+Atlanta · Film & Events
+
+#### [Atlanta Outdoor Film & Event Crews Heat Safety Plan](https://heatready.goes.health/guides/atlanta-film-production.md)
+
+Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.
+
+### Oil & Gas
+
+San Antonio · Oil & Gas
+
+#### [San Antonio Oil & Gas Field Crews Heat Safety Plan](https://heatready.goes.health/guides/san-antonio-oil-gas.md)
+
+Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.
 
 Powered by GOES digital WBGT
 

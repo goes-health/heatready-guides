@@ -53,6 +53,21 @@ Then expand the matrix (hot cities × construction / roofing / landscaping / uti
 
 Each page should include: risk snapshot, printable checklist, heat-index / WBGT-aware trigger table, local/regulatory note, gear block (partner links TBD), GOES CTA pitching digital WBGT → https://goes.health + https://goes.health/platform, FAQ, related guides.
 
+## Mobile-first layout (scripts/layout.py + scripts/mobile-check.mjs)
+
+The header, footer, directory listing and home "Latest guides" list are generated. **Never hand-edit the `<!-- layout:… -->` regions and never put guide links in the header** (that is what broke phones in Nov 2026: one header link per guide filled the whole first screen).
+
+```bash
+python3 scripts/layout.py            # rewrite header/footer/directory/home list from data/guides.json
+python3 scripts/layout.py --check    # exit 1 if any page is stale
+npm install                          # once: playwright-core (uses /usr/bin/google-chrome if present)
+node scripts/mobile-check.mjs        # every page at 375, 390, 768, 1280; exit 1 on any failure
+node scripts/mobile-check.mjs --base https://heatready.goes.health/   # same checks on the live site
+node scripts/mobile-check.mjs --only guides/<id>.html --screenshots /tmp/shots
+```
+
+The check fails on: horizontal scroll, header taller than 120px on phones (96px desktop) or with overlapping/clipped items, any guide link in the header, body text under 16px (labels/legal small print under 13px), phone tap targets under 44×44 (inline sentence links excepted), no GOES CTA button in the first phone screen, lines wider than ~46em, oversized/broken images, overflowing tables, a missing viewport meta, and a hamburger menu that does not open cleanly.
+
 ## Brand
 
 **HeatReady Guides** — practical, supervisor-friendly, mobile-first.
@@ -73,7 +88,7 @@ python3 scripts/agents.py --check  # optional: exit 1 if anything is stale
 python3 scripts/indexnow.py        # ping Bing/IndexNow with every live URL (no login)
 ```
 
-Nightly order: write the new `guides/<id>.html` → set its `data/guides.json` entry to `"status": "shipped"` with `published` → `python3 scripts/agents.py` → commit/push → `python3 scripts/indexnow.py`. Only `shipped` guides whose HTML exists are published to agents.
+Nightly order: write the new `guides/<id>.html` (copy the newest guide; leave the `layout:` regions alone) → set its `data/guides.json` entry to `"status": "shipped"` with `published` and a one-sentence `summary` → `python3 scripts/layout.py` → `python3 scripts/agents.py` → `node scripts/mobile-check.mjs` (**must pass; do not publish on failure**) → commit/push → `python3 scripts/indexnow.py`. Only `shipped` guides whose HTML exists are published to agents.
 
 It writes: `llms.txt`, `guides.json` (public feed; `data/guides.json` stays internal), `index.md` / `guides/**/*.md` (+ `*.html.md` aliases), `robots.txt`, `sitemap.xml`, the IndexNow key file, and an `<!-- agents:start -->…<!-- agents:end -->` block in each page `<head>` (Markdown alternate link, `describedby` llms.txt, and home-page JSON-LD). Visible page copy is never touched. Requires `pip install -r scripts/requirements.txt` (beautifulsoup4, markdownify). Do not remove `CNAME`.
 

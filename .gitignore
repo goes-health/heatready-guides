@@ -12,3 +12,5 @@ Thumbs.db
 # Internal preview screenshots (not linked from the site)
 preview-*.png
 __pycache__/
+
+node_modules/

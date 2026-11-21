@@ -89,7 +89,7 @@ def page_markdown(page_path, shipped_paths):
     main = soup.find("main")
 
     # drop decoration and status chips (status comes from data/guides.json instead)
-    for t in main.select("img, script, style, .status, .soon, .eyebrow"):
+    for t in main.select("img, script, style, .status, .soon, .eyebrow, .count, nav.chips"):
         t.decompose()
     # breadcrumbs / in-page jump buttons are navigation, not content
     for a in main.select('a[href^="#"]'):

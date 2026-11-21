@@ -14,33 +14,43 @@
   <!-- agents:end -->
 </head>
 <body>
+  <!-- layout:header:start -->
   <header class="site-header">
     <div class="inner">
-      <a class="brand-lockup" href="../index.html">
-        <img class="goes-logo" src="../assets/brand/logo/GOES_black.svg" alt="GOES">
+      <a class="brand-lockup" href="../index.html" aria-label="HeatReady Guides by GOES, home">
+        <img class="goes-logo" src="../assets/brand/logo/GOES_black.svg" alt="GOES" width="951" height="186">
         <span class="divider" aria-hidden="true"></span>
-        <span class="site-name">HeatReady Guides</span>
+        <span class="site-name">HeatReady<span class="site-name-tail"> Guides</span></span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="index.html">Directory</a>
-        <a href="phoenix-construction.html">Phoenix Construction</a>
-        <a href="houston-roofing.html">Houston Roofing</a>
-        <a href="las-vegas-landscaping.html">Las Vegas Landscaping</a>
-        <a href="california-construction-3395.html">California Construction</a>
-        <a href="dallas-utilities.html">Dallas Utilities</a>
-        <a href="miami-delivery.html">Miami Delivery</a>
-        <a href="tucson-agriculture.html">Tucson Agriculture</a>
-        <a href="atlanta-film-production.html">Atlanta Film &amp; Events</a>
-        <a href="san-antonio-oil-gas.html">San Antonio Oil &amp; Gas</a>
-        <a href="orlando-landscaping.html">Orlando Landscaping</a>
-        <a href="tampa-roofing.html">Tampa Roofing</a>
-        <a href="charlotte-construction.html">Charlotte Construction</a>
-        <a href="jacksonville-utilities.html">Jacksonville Utilities</a>
-        <a href="austin-landscaping.html">Austin Landscaping</a>
-        <a href="https://goes.health">GOES</a>
+        <a class="nav-link" href="../guides/index.html" aria-current="page">All guides</a>
+        <a class="nav-link" href="https://goes.health/platform">GOES platform</a>
+        <a class="btn btn-primary nav-cta" href="https://goes.health"><span class="nav-cta-long">Get live WBGT</span><span class="nav-cta-short" aria-hidden="true">Live WBGT</span></a>
       </nav>
+      <details class="menu">
+        <summary aria-label="Open menu"><span class="menu-icon" aria-hidden="true"></span></summary>
+        <div class="menu-panel">
+          <a href="../index.html">Home</a>
+          <a href="../guides/index.html">All 16 guides</a>
+          <p class="menu-label">By industry</p>
+          <nav class="chips" aria-label="Browse guides by industry">
+          <a class="chip" href="../guides/index.html#construction">Construction <span class="chip-count">4</span></a>
+          <a class="chip" href="../guides/index.html#landscaping">Landscaping <span class="chip-count">4</span></a>
+          <a class="chip" href="../guides/index.html#roofing">Roofing <span class="chip-count">2</span></a>
+          <a class="chip" href="../guides/index.html#utilities">Utilities <span class="chip-count">2</span></a>
+          <a class="chip" href="../guides/index.html#agriculture">Agriculture <span class="chip-count">1</span></a>
+          <a class="chip" href="../guides/index.html#delivery">Delivery <span class="chip-count">1</span></a>
+          <a class="chip" href="../guides/index.html#film-events">Film &amp; Events <span class="chip-count">1</span></a>
+          <a class="chip" href="../guides/index.html#oil-gas">Oil &amp; Gas <span class="chip-count">1</span></a>
+          </nav>
+          <a href="https://goes.health/platform">GOES platform</a>
+          <a class="btn btn-primary" href="https://goes.health">Get live WBGT &amp; heat-risk scores</a>
+        </div>
+      </details>
     </div>
   </header>
+  <script src="../assets/js/site.js" defer></script>
+  <!-- layout:header:end -->
 
   <main>
     <section class="hero">
@@ -62,107 +72,155 @@
 
     <section class="section">
       <div class="wrap">
-        <h2>All guides</h2>
-        <div class="grid grid-2">
-          <article class="card">
-            <div class="meta">Phoenix · Construction</div>
-            <h3><a class="title-link" href="phoenix-construction.html">Phoenix Construction Heat Illness Prevention Checklist (2026)</a></h3>
-            <p>Summer climate snapshot, full checklist, high-heat table, Arizona / Phoenix contractor context.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
+        <!-- layout:directory:start -->
+        <h2>All guides <span class="count">16 live</span></h2>
+        <nav class="chips" aria-label="Browse guides by industry">
+        <a class="chip" href="#construction">Construction <span class="chip-count">4</span></a>
+        <a class="chip" href="#landscaping">Landscaping <span class="chip-count">4</span></a>
+        <a class="chip" href="#roofing">Roofing <span class="chip-count">2</span></a>
+        <a class="chip" href="#utilities">Utilities <span class="chip-count">2</span></a>
+        <a class="chip" href="#agriculture">Agriculture <span class="chip-count">1</span></a>
+        <a class="chip" href="#delivery">Delivery <span class="chip-count">1</span></a>
+        <a class="chip" href="#film-events">Film &amp; Events <span class="chip-count">1</span></a>
+        <a class="chip" href="#oil-gas">Oil &amp; Gas <span class="chip-count">1</span></a>
+        </nav>
+        <section class="industry-group" id="construction" aria-labelledby="h-construction">
+          <h3 class="group-title" id="h-construction">Construction <span class="count">4</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
             <div class="meta">Memphis · Construction</div>
-            <h3><a class="title-link" href="memphis-construction.html">Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade &amp; Water Breaks</a></h3>
+            <h4><a class="title-link" href="memphis-construction.html">Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade &amp; Water Breaks</a></h4>
             <p>Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Mid-South summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">Nashville · Landscaping</div>
-            <h3><a class="title-link" href="nashville-landscaping.html">Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade &amp; Water Breaks</a></h3>
-            <p>Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot, humid Middle Tennessee summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Houston · Roofing</div>
-            <h3><a class="title-link" href="houston-roofing.html">Houston Roofing Crew Heat Safety Plan: Water, Rest, Shade Triggers</a></h3>
-            <p>Roof-deck radiant heat, limited shade, humidity-adjusted break schedules, GOES digital WBGT triggers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Las Vegas · Landscaping</div>
-            <h3><a class="title-link" href="las-vegas-landscaping.html">Las Vegas Landscaping Heat Illness Prevention Guide</a></h3>
-            <p>Desert landscaping: canopy placement, early starts, dry-heat hydration, GOES digital WBGT triggers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">California · Construction</div>
-            <h3><a class="title-link" href="california-construction-3395.html">California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)</a></h3>
-            <p>Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Dallas · Utilities</div>
-            <h3><a class="title-link" href="dallas-utilities.html">Dallas Utility Workers Heat Index Break Schedule &amp; Acclimatization Guide</a></h3>
-            <p>Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Miami · Delivery</div>
-            <h3><a class="title-link" href="miami-delivery.html">Miami Delivery Driver Heat Illness Prevention Checklist</a></h3>
-            <p>Vehicle heat, stop-and-go work, humidity, hydration between stops.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Tucson · Agriculture</div>
-            <h3><a class="title-link" href="tucson-agriculture.html">Tucson Agriculture High-Heat Procedures (95°F+) Field Guide</a></h3>
-            <p>Field crews: shade structures, high-heat rest cadence, monsoon season notes.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Atlanta · Film &amp; Events</div>
-            <h3><a class="title-link" href="atlanta-film-production.html">Atlanta Outdoor Film &amp; Event Crews Heat Safety Plan</a></h3>
-            <p>Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">San Antonio · Oil &amp; Gas</div>
-            <h3><a class="title-link" href="san-antonio-oil-gas.html">San Antonio Oil &amp; Gas Field Crews Heat Safety Plan</a></h3>
-            <p>Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Orlando · Landscaping</div>
-            <h3><a class="title-link" href="orlando-landscaping.html">Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade &amp; Water Breaks</a></h3>
-            <p>Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Tampa · Roofing</div>
-            <h3><a class="title-link" href="tampa-roofing.html">Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water &amp; Shade Breaks</a></h3>
-            <p>Tear-off and install crews: ladder shade, roof-deck water and rest cadence, humid Tampa Bay summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
+          <article class="card card-link">
             <div class="meta">Charlotte · Construction</div>
-            <h3><a class="title-link" href="charlotte-construction.html">Charlotte Construction Crew Heat Safety Plan: Humidity, Shade &amp; Water Breaks</a></h3>
+            <h4><a class="title-link" href="charlotte-construction.html">Charlotte Construction Crew Heat Safety Plan: Humidity, Shade &amp; Water Breaks</a></h4>
             <p>Framing, concrete and sitework crews: laydown-yard shade, water and rest cadence, humid Piedmont summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">Jacksonville · Utilities</div>
-            <h3><a class="title-link" href="jacksonville-utilities.html">Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat &amp; Water Breaks</a></h3>
-            <p>Line, underground and service crews: water and shade at the truck, rest cadence and mutual-aid acclimatization for humid North Florida summers.</p>
+          <article class="card card-link">
+            <div class="meta">California · Construction</div>
+            <h4><a class="title-link" href="california-construction-3395.html">California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)</a></h4>
+            <p>Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
+          <article class="card card-link">
+            <div class="meta">Phoenix · Construction</div>
+            <h4><a class="title-link" href="phoenix-construction.html">Phoenix Construction Heat Illness Prevention Checklist (2026)</a></h4>
+            <p>Summer climate snapshot, full checklist, high-heat table, Arizona / Phoenix contractor context.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="landscaping" aria-labelledby="h-landscaping">
+          <h3 class="group-title" id="h-landscaping">Landscaping <span class="count">4</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">Nashville · Landscaping</div>
+            <h4><a class="title-link" href="nashville-landscaping.html">Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade &amp; Water Breaks</a></h4>
+            <p>Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot, humid Middle Tennessee summers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          <article class="card card-link">
             <div class="meta">Austin · Landscaping</div>
-            <h3><a class="title-link" href="austin-landscaping.html">Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade &amp; Water Breaks</a></h3>
+            <h4><a class="title-link" href="austin-landscaping.html">Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade &amp; Water Breaks</a></h4>
             <p>Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot Central Texas summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-        </div>
-
-        <div class="cta-band">
+          <article class="card card-link">
+            <div class="meta">Orlando · Landscaping</div>
+            <h4><a class="title-link" href="orlando-landscaping.html">Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade &amp; Water Breaks</a></h4>
+            <p>Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          <article class="card card-link">
+            <div class="meta">Las Vegas · Landscaping</div>
+            <h4><a class="title-link" href="las-vegas-landscaping.html">Las Vegas Landscaping Heat Illness Prevention Guide</a></h4>
+            <p>Desert landscaping: canopy placement, early starts, dry-heat hydration, GOES digital WBGT triggers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="roofing" aria-labelledby="h-roofing">
+          <h3 class="group-title" id="h-roofing">Roofing <span class="count">2</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">Tampa · Roofing</div>
+            <h4><a class="title-link" href="tampa-roofing.html">Tampa Roofing Crew Heat Safety Plan: Roof-Deck Heat, Water &amp; Shade Breaks</a></h4>
+            <p>Tear-off and install crews: ladder shade, roof-deck water and rest cadence, humid Tampa Bay summers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          <article class="card card-link">
+            <div class="meta">Houston · Roofing</div>
+            <h4><a class="title-link" href="houston-roofing.html">Houston Roofing Crew Heat Safety Plan: Water, Rest, Shade Triggers</a></h4>
+            <p>Roof-deck radiant heat, limited shade, humidity-adjusted break schedules, GOES digital WBGT triggers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="utilities" aria-labelledby="h-utilities">
+          <h3 class="group-title" id="h-utilities">Utilities <span class="count">2</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">Jacksonville · Utilities</div>
+            <h4><a class="title-link" href="jacksonville-utilities.html">Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat &amp; Water Breaks</a></h4>
+            <p>Line, underground and service crews: water and shade at the truck, rest cadence and mutual-aid acclimatization for humid North Florida summers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          <article class="card card-link">
+            <div class="meta">Dallas · Utilities</div>
+            <h4><a class="title-link" href="dallas-utilities.html">Dallas Utility Workers Heat Index Break Schedule &amp; Acclimatization Guide</a></h4>
+            <p>Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="agriculture" aria-labelledby="h-agriculture">
+          <h3 class="group-title" id="h-agriculture">Agriculture <span class="count">1</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">Tucson · Agriculture</div>
+            <h4><a class="title-link" href="tucson-agriculture.html">Tucson Agriculture High-Heat Procedures (95°F+) Field Guide</a></h4>
+            <p>Field crews: shade structures, high-heat rest cadence, monsoon season notes.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="delivery" aria-labelledby="h-delivery">
+          <h3 class="group-title" id="h-delivery">Delivery <span class="count">1</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">Miami · Delivery</div>
+            <h4><a class="title-link" href="miami-delivery.html">Miami Delivery Driver Heat Illness Prevention Checklist</a></h4>
+            <p>Vehicle heat, stop-and-go work, humidity, hydration between stops.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="film-events" aria-labelledby="h-film-events">
+          <h3 class="group-title" id="h-film-events">Film &amp; Events <span class="count">1</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">Atlanta · Film &amp; Events</div>
+            <h4><a class="title-link" href="atlanta-film-production.html">Atlanta Outdoor Film &amp; Event Crews Heat Safety Plan</a></h4>
+            <p>Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <section class="industry-group" id="oil-gas" aria-labelledby="h-oil-gas">
+          <h3 class="group-title" id="h-oil-gas">Oil &amp; Gas <span class="count">1</span></h3>
+          <div class="grid grid-2">
+          <article class="card card-link">
+            <div class="meta">San Antonio · Oil &amp; Gas</div>
+            <h4><a class="title-link" href="san-antonio-oil-gas.html">San Antonio Oil &amp; Gas Field Crews Heat Safety Plan</a></h4>
+            <p>Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.</p>
+            <span class="status status-shipped">Live</span>
+          </article>
+          </div>
+        </section>
+        <!-- layout:directory:end --><div class="cta-band">
           <img class="goes-mark" src="../assets/brand/logo/GOES_offwhite.svg" alt="GOES">
           <p class="partner-line">Powered by GOES digital WBGT</p>
           <h2>Digital WBGT &amp; live heat-risk scores</h2>
@@ -182,19 +240,23 @@
     </section>
   </main>
 
+  <!-- layout:footer:start -->
   <footer class="site-footer">
     <img class="footer-pattern" src="../assets/brand/pattern/Pattern_BotLeft.svg" alt="" aria-hidden="true">
     <div class="inner">
       <div class="footer-brand">
-        <img class="goes-logo" src="../assets/brand/logo/GOES_offwhite.svg" alt="GOES">
+        <img class="goes-logo" src="../assets/brand/logo/GOES_offwhite.svg" alt="GOES" width="951" height="186">
         <div><strong>HeatReady Guides</strong> — practical outdoor worker heat safety. Not legal advice.</div>
         <p class="footer-disclaimer">GOES provides guidance. It is not a substitute for professional medical care.</p>
       </div>
-      <div>
-        <a href="../index.html">Home</a> ·
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="../index.html">Home</a>
+        <a href="../guides/index.html">All guides</a>
         <a href="https://goes.health">goes.health</a>
-      </div>
+        <a href="https://goes.health/platform">GOES platform</a>
+      </nav>
     </div>
   </footer>
+  <!-- layout:footer:end -->
 </body>
 </html>
