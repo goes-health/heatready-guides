@@ -141,6 +141,15 @@
       "path": "guides/nashville-landscaping.html",
       "status": "shipped",
       "published": "2026-11-19"
+    },
+    {
+      "id": "memphis-construction",
+      "title": "Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade & Water Breaks",
+      "city": "Memphis",
+      "industry": "Construction",
+      "path": "guides/memphis-construction.html",
+      "status": "shipped",
+      "published": "2026-11-20"
     }
   ]
 }

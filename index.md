@@ -156,6 +156,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat & Water Breaks](https://heatready.goes.health/guides/jacksonville-utilities.md): Jacksonville · Utilities · published 2026-11-17
 - [Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade & Water Breaks](https://heatready.goes.health/guides/austin-landscaping.md): Austin · Landscaping · published 2026-11-18
 - [Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade & Water Breaks](https://heatready.goes.health/guides/nashville-landscaping.md): Nashville · Landscaping · published 2026-11-19
+- [Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade & Water Breaks](https://heatready.goes.health/guides/memphis-construction.md): Memphis · Construction · published 2026-11-20
 
 ---
 
