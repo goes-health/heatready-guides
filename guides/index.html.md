@@ -1,6 +1,6 @@
 # Heat safety directory
 
-> Ten live city × industry heat checklists paired with GOES digital WBGT and live heat-risk scores: Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, Atlanta film & events, and San Antonio oil & gas.
+> 16 live city × industry heat checklists for construction, landscaping, roofing, utilities, agriculture, delivery, film & events, and oil & gas crews, paired with GOES digital WBGT and live heat-risk scores.
 
 HTML version: https://heatready.goes.health/guides/
 

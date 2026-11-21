@@ -57,6 +57,8 @@ Each page should include: risk snapshot, printable checklist, heat-index / WBGT-
 
 The header, footer, directory listing and home "Latest guides" list are generated. **Never hand-edit the `<!-- layout:… -->` regions and never put guide links in the header** (that is what broke phones in Nov 2026: one header link per guide filled the whole first screen).
 
+**Single gate (nightly + any change): `bash scripts/gate.sh`** (same as `npm run gate`). It runs `agents.py` (which applies `layout.py` first), `agents.py --check`, then `mobile-check.mjs`, and exits non-zero on any failure.
+
 ```bash
 python3 scripts/layout.py            # rewrite header/footer/directory/home list from data/guides.json
 python3 scripts/layout.py --check    # exit 1 if any page is stale
@@ -88,7 +90,7 @@ python3 scripts/agents.py --check  # optional: exit 1 if anything is stale
 python3 scripts/indexnow.py        # ping Bing/IndexNow with every live URL (no login)
 ```
 
-Nightly order: write the new `guides/<id>.html` (copy the newest guide; leave the `layout:` regions alone) → set its `data/guides.json` entry to `"status": "shipped"` with `published` and a one-sentence `summary` → `python3 scripts/layout.py` → `python3 scripts/agents.py` → `node scripts/mobile-check.mjs` (**must pass; do not publish on failure**) → commit/push → `python3 scripts/indexnow.py`. Only `shipped` guides whose HTML exists are published to agents.
+Nightly order: write the new `guides/<id>.html` (copy the newest guide; leave the `layout:` regions alone) → set its `data/guides.json` entry to `"status": "shipped"` with `published` and a one-sentence `summary` → **`bash scripts/gate.sh`** (must exit 0; do not publish on failure) → commit/push → `python3 scripts/indexnow.py`. The gate regenerates the header, footer, directory cards, home "Latest guides" list, home/directory counts and meta descriptions, and all agent files, so no page needs a manual edit besides the new guide itself.
 
 It writes: `llms.txt`, `guides.json` (public feed; `data/guides.json` stays internal), `index.md` / `guides/**/*.md` (+ `*.html.md` aliases), `robots.txt`, `sitemap.xml`, the IndexNow key file, and an `<!-- agents:start -->…<!-- agents:end -->` block in each page `<head>` (Markdown alternate link, `describedby` llms.txt, and home-page JSON-LD). Visible page copy is never touched. Requires `pip install -r scripts/requirements.txt` (beautifulsoup4, markdownify). Do not remove `CNAME`.
 

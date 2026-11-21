@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "layout": "python3 scripts/layout.py",
+    "gate": "bash scripts/gate.sh",
     "mobile-check": "node scripts/mobile-check.mjs",
-    "screenshots": "node scripts/mobile-check.mjs --screenshots"
+    "layout": "python3 scripts/layout.py"
   },
   "devDependencies": {
     "playwright-core": "^1.65.1"

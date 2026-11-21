@@ -427,8 +427,17 @@ def build():
 
 
 def main():
-    out = build()
     check = "--check" in sys.argv
+    # shared header/footer/directory/home lists (scripts/layout.py) are applied before anything else
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import layout
+    lstale = layout.run(check)
+    if check and lstale:
+        print("layout stale (run python3 scripts/agents.py):", *lstale, sep="\n  ")
+        sys.exit(1)
+    if lstale:
+        print("layout.py: updated", *lstale, sep="\n  ")
+    out = build()
     stale = []
     for path, text in out.items():
         old = open(path, encoding="utf-8").read() if os.path.exists(path) else None

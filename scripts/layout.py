@@ -229,8 +229,38 @@ def render(rel, src, shipped):
         out = replace_region(out, "directory", directory_block(shipped), LEGACY_DIRECTORY)
     if rel == "index.html":
         out = replace_region(out, "latest", latest_block(shipped), LEGACY_LATEST)
-        out = re.sub(r"Browse all [\w-]+ guides", f"Browse all {len(shipped)} guides", out)
+    out = generated_copy(rel, out, shipped)
     out = label_tables(out)
+    return out
+
+
+def join_list(items):
+    items = list(items)
+    return items[0] if len(items) == 1 else ", ".join(items[:-1]) + ", and " + items[-1]
+
+
+def generated_copy(rel, out, shipped):
+    """Counts, city and industry lists in visible copy and meta descriptions come from data/guides.json."""
+    n = len(shipped)
+    ind = [k for k, _ in industries(shipped)]
+    inds_lc = join_list([i.lower() for i in ind])
+    cities = []
+    for g in sorted(shipped, key=lambda g: g.get("published", "")):
+        if g["city"] not in cities:
+            cities.append(g["city"])
+    def meta(text):
+        return re.sub(r'(<meta name="description" content=")[^"]*(")', lambda m: m.group(1) + esc(text) + m.group(2), out, count=1)
+    if rel == "index.html":
+        out = meta(f"{n} live heat illness prevention guides by city and industry for {inds_lc} crews, "
+                   f"paired with GOES digital WBGT and live heat-risk scores.")
+        out = re.sub(r"Browse all [\w-]+ guides", f"Browse all {n} guides", out)
+        out = re.sub(r"(<h3>By city</h3>\s*<p>).*?(</p>)",
+                     lambda m: m.group(1) + esc(", ".join(cities)) + " — climate and local context that matter on the ground." + m.group(2), out, count=1, flags=re.S)
+        out = re.sub(r"(<h3>By industry</h3>\s*<p>).*?(</p>)",
+                     lambda m: m.group(1) + esc(", ".join([ind[0]] + [i.lower() for i in ind[1:]])) + " — different PPE, work rates, and shade options." + m.group(2), out, count=1, flags=re.S)
+    if rel == "guides/index.html":
+        out = meta(f"{n} live city × industry heat checklists for {inds_lc} crews, "
+                   f"paired with GOES digital WBGT and live heat-risk scores.")
     return out
 
 
@@ -240,8 +270,8 @@ def pages():
     return out
 
 
-def main():
-    check = "--check" in sys.argv
+def run(check=False):
+    """Apply the layout to every page. Returns the list of pages that were (or would be) changed."""
     D, shipped = load()
     if harvest_summaries(D) and not check:
         with open(DATA, "w", encoding="utf-8") as f:
@@ -256,6 +286,12 @@ def main():
             if not check:
                 with open(os.path.join(ROOT, rel), "w", encoding="utf-8") as f:
                     f.write(new)
+    return stale
+
+
+def main():
+    check = "--check" in sys.argv
+    stale = run(check)
     if check:
         if stale:
             print("layout.py --check: out of date:", ", ".join(stale))

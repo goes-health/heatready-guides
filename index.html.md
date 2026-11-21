@@ -1,6 +1,6 @@
 # City × industry heat checklists that pair with digital WBGT.
 
-> Ten live heat illness prevention guides — Phoenix construction, Houston roofing, Las Vegas landscaping, California construction, Dallas utilities, Miami delivery, Tucson agriculture, and Atlanta film & events, San Antonio oil & gas, and Orlando landscaping — paired with GOES digital WBGT and live heat-risk scores.
+> 16 live heat illness prevention guides by city and industry for construction, landscaping, roofing, utilities, agriculture, delivery, film & events, and oil & gas crews, paired with GOES digital WBGT and live heat-risk scores.
 
 HTML version: https://heatready.goes.health/
 
@@ -28,11 +28,11 @@ delivers digital WBGT and live heat-risk scores.
 
 ### By city
 
-Phoenix, Houston, Las Vegas, California, Dallas, Miami, Tucson, Atlanta, San Antonio, Orlando — climate and local context that matter on the ground.
+Phoenix, Houston, Las Vegas, California, Dallas, Miami, Tucson, Atlanta, San Antonio, Orlando, Tampa, Charlotte, Jacksonville, Austin, Nashville, Memphis — climate and local context that matter on the ground.
 
 ### By industry
 
-Construction, roofing, landscaping, utilities, agriculture, delivery — different PPE, work rates, and shade options.
+Construction, landscaping, roofing, utilities, agriculture, delivery, film & events, oil & gas — different PPE, work rates, and shade options.
 
 ### Printable & plain
 
