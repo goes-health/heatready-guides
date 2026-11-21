@@ -91,35 +91,43 @@
   <!-- agents:end -->
 </head>
 <body>
+  <!-- layout:header:start -->
   <header class="site-header">
     <div class="inner">
-      <a class="brand-lockup" href="../index.html">
-        <img class="goes-logo" src="../assets/brand/logo/GOES_black.svg" alt="GOES">
+      <a class="brand-lockup" href="../index.html" aria-label="HeatReady Guides by GOES, home">
+        <img class="goes-logo" src="../assets/brand/logo/GOES_black.svg" alt="GOES" width="951" height="186">
         <span class="divider" aria-hidden="true"></span>
-        <span class="site-name">HeatReady Guides</span>
+        <span class="site-name">HeatReady<span class="site-name-tail"> Guides</span></span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="index.html">Directory</a>
-        <a href="phoenix-construction.html">Phoenix Construction</a>
-        <a href="houston-roofing.html">Houston Roofing</a>
-        <a href="las-vegas-landscaping.html">Las Vegas Landscaping</a>
-        <a href="california-construction-3395.html">California Construction</a>
-        <a href="dallas-utilities.html">Dallas Utilities</a>
-        <a href="miami-delivery.html">Miami Delivery</a>
-        <a href="tucson-agriculture.html">Tucson Agriculture</a>
-        <a href="atlanta-film-production.html">Atlanta Film &amp; Events</a>
-        <a href="san-antonio-oil-gas.html">San Antonio Oil &amp; Gas</a>
-        <a href="orlando-landscaping.html">Orlando Landscaping</a>
-        <a href="tampa-roofing.html">Tampa Roofing</a>
-        <a href="charlotte-construction.html">Charlotte Construction</a>
-        <a href="jacksonville-utilities.html">Jacksonville Utilities</a>
-        <a href="austin-landscaping.html">Austin Landscaping</a>
-        <a href="nashville-landscaping.html">Nashville Landscaping</a>
-        <a href="memphis-construction.html" aria-current="page">Memphis Construction</a>
-        <a href="https://goes.health">GOES</a>
+        <a class="nav-link" href="../guides/index.html">All guides</a>
+        <a class="nav-link" href="https://goes.health/platform">GOES platform</a>
+        <a class="btn btn-primary nav-cta" href="https://goes.health"><span class="nav-cta-long">Get live WBGT</span><span class="nav-cta-short" aria-hidden="true">Live WBGT</span></a>
       </nav>
+      <details class="menu">
+        <summary aria-label="Open menu"><span class="menu-icon" aria-hidden="true"></span></summary>
+        <div class="menu-panel">
+          <a href="../index.html">Home</a>
+          <a href="../guides/index.html">All 16 guides</a>
+          <p class="menu-label">By industry</p>
+          <nav class="chips" aria-label="Browse guides by industry">
+          <a class="chip" href="../guides/index.html#construction">Construction <span class="chip-count">4</span></a>
+          <a class="chip" href="../guides/index.html#landscaping">Landscaping <span class="chip-count">4</span></a>
+          <a class="chip" href="../guides/index.html#roofing">Roofing <span class="chip-count">2</span></a>
+          <a class="chip" href="../guides/index.html#utilities">Utilities <span class="chip-count">2</span></a>
+          <a class="chip" href="../guides/index.html#agriculture">Agriculture <span class="chip-count">1</span></a>
+          <a class="chip" href="../guides/index.html#delivery">Delivery <span class="chip-count">1</span></a>
+          <a class="chip" href="../guides/index.html#film-events">Film &amp; Events <span class="chip-count">1</span></a>
+          <a class="chip" href="../guides/index.html#oil-gas">Oil &amp; Gas <span class="chip-count">1</span></a>
+          </nav>
+          <a href="https://goes.health/platform">GOES platform</a>
+          <a class="btn btn-primary" href="https://goes.health">Get live WBGT &amp; heat-risk scores</a>
+        </div>
+      </details>
     </div>
   </header>
+  <script src="../assets/js/site.js" defer></script>
+  <!-- layout:header:end -->
 
   <main>
     <article>
@@ -192,10 +200,10 @@
             <table>
               <thead><tr><th>Heat index (approx.)</th><th>Risk band</th><th>Suggested cadence &amp; controls</th></tr></thead>
               <tbody>
-                <tr><td>Below about 91°F</td><td class="level-caution">Caution</td><td>Cool water at the laydown yard and near each work area; remind crew to sip every 15–20 min; shade available on request; watch anyone new to the heat.</td></tr>
-                <tr><td>About 91–103°F</td><td class="level-caution">High</td><td>Shade (canopy, trailer or shaded structure) near the work, scheduled water and cool-down breaks, buddy checks, and a heat reminder in the pre-shift safety meeting.</td></tr>
-                <tr><td>About 103–115°F</td><td class="level-danger">Very high</td><td>More frequent, longer breaks; move the heaviest lifting, hauling and concrete work to cooler hours; rotate people between tasks; observe crews continuously; keep a named emergency contact and the job address ready.</td></tr>
-                <tr><td>Above about 115°F</td><td class="level-extreme">Extreme</td><td>Maximum controls; reschedule or pause non-essential outdoor work where feasible; keep cooling first aid and EMS readiness in mind for every crew; do not let schedule pressure override stop-work calls.</td></tr>
+                <tr><td data-label="Heat index (approx.)">Below about 91°F</td><td data-label="Risk band" class="level-caution">Caution</td><td data-label="Suggested cadence &amp; controls">Cool water at the laydown yard and near each work area; remind crew to sip every 15–20 min; shade available on request; watch anyone new to the heat.</td></tr>
+                <tr><td data-label="Heat index (approx.)">About 91–103°F</td><td data-label="Risk band" class="level-caution">High</td><td data-label="Suggested cadence &amp; controls">Shade (canopy, trailer or shaded structure) near the work, scheduled water and cool-down breaks, buddy checks, and a heat reminder in the pre-shift safety meeting.</td></tr>
+                <tr><td data-label="Heat index (approx.)">About 103–115°F</td><td data-label="Risk band" class="level-danger">Very high</td><td data-label="Suggested cadence &amp; controls">More frequent, longer breaks; move the heaviest lifting, hauling and concrete work to cooler hours; rotate people between tasks; observe crews continuously; keep a named emergency contact and the job address ready.</td></tr>
+                <tr><td data-label="Heat index (approx.)">Above about 115°F</td><td data-label="Risk band" class="level-extreme">Extreme</td><td data-label="Suggested cadence &amp; controls">Maximum controls; reschedule or pause non-essential outdoor work where feasible; keep cooling first aid and EMS readiness in mind for every crew; do not let schedule pressure override stop-work calls.</td></tr>
               </tbody>
             </table>
           </div>
@@ -325,20 +333,23 @@
     </article>
   </main>
 
+  <!-- layout:footer:start -->
   <footer class="site-footer">
     <img class="footer-pattern" src="../assets/brand/pattern/Pattern_BotLeft.svg" alt="" aria-hidden="true">
     <div class="inner">
       <div class="footer-brand">
-        <img class="goes-logo" src="../assets/brand/logo/GOES_offwhite.svg" alt="GOES">
+        <img class="goes-logo" src="../assets/brand/logo/GOES_offwhite.svg" alt="GOES" width="951" height="186">
         <div><strong>HeatReady Guides</strong> — practical outdoor worker heat safety. Not legal advice.</div>
         <p class="footer-disclaimer">GOES provides guidance. It is not a substitute for professional medical care.</p>
       </div>
-      <div>
-        <a href="../index.html">Home</a> ·
-        <a href="index.html">Directory</a> ·
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="../index.html">Home</a>
+        <a href="../guides/index.html">All guides</a>
         <a href="https://goes.health">goes.health</a>
-      </div>
+        <a href="https://goes.health/platform">GOES platform</a>
+      </nav>
     </div>
   </footer>
+  <!-- layout:footer:end -->
 </body>
 </html>

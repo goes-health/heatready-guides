@@ -138,29 +138,43 @@
   <!-- agents:end -->
 </head>
 <body>
+  <!-- layout:header:start -->
   <header class="site-header">
     <div class="inner">
-      <a class="brand-lockup" href="index.html">
-        <img class="goes-logo" src="assets/brand/logo/GOES_black.svg" alt="GOES">
+      <a class="brand-lockup" href="index.html" aria-label="HeatReady Guides by GOES, home" aria-current="page">
+        <img class="goes-logo" src="assets/brand/logo/GOES_black.svg" alt="GOES" width="951" height="186">
         <span class="divider" aria-hidden="true"></span>
-        <span class="site-name">HeatReady Guides</span>
+        <span class="site-name">HeatReady<span class="site-name-tail"> Guides</span></span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="guides/index.html">Directory</a>
-        <a href="guides/phoenix-construction.html">Phoenix Construction</a>
-        <a href="guides/houston-roofing.html">Houston Roofing</a>
-        <a href="guides/las-vegas-landscaping.html">Las Vegas Landscaping</a>
-        <a href="guides/california-construction-3395.html">California Construction</a>
-        <a href="guides/dallas-utilities.html">Dallas Utilities</a>
-        <a href="guides/miami-delivery.html">Miami Delivery</a>
-        <a href="guides/tucson-agriculture.html">Tucson Agriculture</a>
-        <a href="guides/atlanta-film-production.html">Atlanta Film &amp; Events</a>
-        <a href="guides/san-antonio-oil-gas.html">San Antonio Oil &amp; Gas</a>
-        <a href="guides/orlando-landscaping.html">Orlando Landscaping</a>
-        <a href="https://goes.health">GOES</a>
+        <a class="nav-link" href="guides/index.html">All guides</a>
+        <a class="nav-link" href="https://goes.health/platform">GOES platform</a>
+        <a class="btn btn-primary nav-cta" href="https://goes.health"><span class="nav-cta-long">Get live WBGT</span><span class="nav-cta-short" aria-hidden="true">Live WBGT</span></a>
       </nav>
+      <details class="menu">
+        <summary aria-label="Open menu"><span class="menu-icon" aria-hidden="true"></span></summary>
+        <div class="menu-panel">
+          <a href="index.html">Home</a>
+          <a href="guides/index.html">All 16 guides</a>
+          <p class="menu-label">By industry</p>
+          <nav class="chips" aria-label="Browse guides by industry">
+          <a class="chip" href="guides/index.html#construction">Construction <span class="chip-count">4</span></a>
+          <a class="chip" href="guides/index.html#landscaping">Landscaping <span class="chip-count">4</span></a>
+          <a class="chip" href="guides/index.html#roofing">Roofing <span class="chip-count">2</span></a>
+          <a class="chip" href="guides/index.html#utilities">Utilities <span class="chip-count">2</span></a>
+          <a class="chip" href="guides/index.html#agriculture">Agriculture <span class="chip-count">1</span></a>
+          <a class="chip" href="guides/index.html#delivery">Delivery <span class="chip-count">1</span></a>
+          <a class="chip" href="guides/index.html#film-events">Film &amp; Events <span class="chip-count">1</span></a>
+          <a class="chip" href="guides/index.html#oil-gas">Oil &amp; Gas <span class="chip-count">1</span></a>
+          </nav>
+          <a href="https://goes.health/platform">GOES platform</a>
+          <a class="btn btn-primary" href="https://goes.health">Get live WBGT &amp; heat-risk scores</a>
+        </div>
+      </details>
     </div>
   </header>
+  <script src="assets/js/site.js" defer></script>
+  <!-- layout:header:end -->
 
   <main>
     <section class="hero">
@@ -177,10 +191,10 @@
           Keep people safer.
         </p>
         <div class="actions">
-          <a class="btn btn-primary" href="guides/index.html">Browse all ten guides</a>
+          <a class="btn btn-primary" href="guides/index.html">Browse all 16 guides</a>
+          <a class="btn btn-goes" href="https://goes.health">Digital WBGT &amp; live heat-risk scores</a>
           <a class="btn btn-secondary" href="guides/phoenix-construction.html">Phoenix Construction</a>
           <a class="btn btn-secondary" href="guides/california-construction-3395.html">California Construction</a>
-          <a class="btn btn-goes" href="https://goes.health">Digital WBGT &amp; live heat-risk scores</a>
         </div>
       </div>
     </section>
@@ -244,71 +258,49 @@
 
     <section class="section">
       <div class="wrap">
+        <!-- layout:latest:start -->
         <p class="eyebrow">Directory</p>
-        <h2>Ten guides, live now</h2>
+        <h2>Latest guides <span class="count">16 live</span></h2>
         <div class="grid grid-2">
-          <article class="card">
-            <div class="meta">Phoenix · Construction</div>
-            <h3><a class="title-link" href="guides/phoenix-construction.html">Phoenix Construction Heat Illness Prevention Checklist (2026)</a></h3>
-            <p>Summer highs, monsoon humidity, water–rest–shade checklist, high-heat triggers, Arizona context.</p>
+          <article class="card card-link">
+            <div class="meta">Memphis · Construction</div>
+            <h3><a class="title-link" href="guides/memphis-construction.html">Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade &amp; Water Breaks</a></h3>
+            <p>Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Mid-South summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">Houston · Roofing</div>
-            <h3><a class="title-link" href="guides/houston-roofing.html">Houston Roofing Crew Heat Safety Plan</a></h3>
-            <p>Water, rest, shade triggers for roof decks with radiant heat, Gulf humidity, and GOES digital WBGT.</p>
+          <article class="card card-link">
+            <div class="meta">Nashville · Landscaping</div>
+            <h3><a class="title-link" href="guides/nashville-landscaping.html">Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade &amp; Water Breaks</a></h3>
+            <p>Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot, humid Middle Tennessee summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">Las Vegas · Landscaping</div>
-            <h3><a class="title-link" href="guides/las-vegas-landscaping.html">Las Vegas Landscaping Heat Illness Prevention Guide</a></h3>
-            <p>Desert landscaping crews: early starts, dry-heat hydration, canopy placement, and GOES digital WBGT.</p>
+          <article class="card card-link">
+            <div class="meta">Austin · Landscaping</div>
+            <h3><a class="title-link" href="guides/austin-landscaping.html">Austin Landscaping Crew Heat Safety Plan: Texas Sun, Shade &amp; Water Breaks</a></h3>
+            <p>Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot Central Texas summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">California · Construction</div>
-            <h3><a class="title-link" href="guides/california-construction-3395.html">California Outdoor Workers: Cal/OSHA 3395 Heat Plan Checklist (Construction)</a></h3>
-            <p>Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes.</p>
+          <article class="card card-link">
+            <div class="meta">Jacksonville · Utilities</div>
+            <h3><a class="title-link" href="guides/jacksonville-utilities.html">Jacksonville Utility Crew Heat Safety Plan: Humidity, Bucket-Truck Heat &amp; Water Breaks</a></h3>
+            <p>Line, underground and service crews: water and shade at the truck, rest cadence and mutual-aid acclimatization for humid North Florida summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">Dallas · Utilities</div>
-            <h3><a class="title-link" href="guides/dallas-utilities.html">Dallas Utility Workers Heat Index Break Schedule &amp; Acclimatization Guide</a></h3>
-            <p>Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions.</p>
+          <article class="card card-link">
+            <div class="meta">Charlotte · Construction</div>
+            <h3><a class="title-link" href="guides/charlotte-construction.html">Charlotte Construction Crew Heat Safety Plan: Humidity, Shade &amp; Water Breaks</a></h3>
+            <p>Framing, concrete and sitework crews: laydown-yard shade, water and rest cadence, humid Piedmont summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
-          <article class="card">
-            <div class="meta">Miami · Delivery</div>
-            <h3><a class="title-link" href="guides/miami-delivery.html">Miami Delivery Driver Heat Illness Prevention Checklist</a></h3>
-            <p>Vehicle heat, stop-and-go work, humidity, hydration between stops.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Tucson · Agriculture</div>
-            <h3><a class="title-link" href="guides/tucson-agriculture.html">Tucson Agriculture High-Heat Procedures (95°F+) Field Guide</a></h3>
-            <p>Field crews: shade structures, high-heat rest cadence, monsoon season notes.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">Atlanta · Film &amp; Events</div>
-            <h3><a class="title-link" href="guides/atlanta-film-production.html">Atlanta Outdoor Film &amp; Event Crews Heat Safety Plan</a></h3>
-            <p>Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
-            <div class="meta">San Antonio · Oil &amp; Gas</div>
-            <h3><a class="title-link" href="guides/san-antonio-oil-gas.html">San Antonio Oil &amp; Gas Field Crews Heat Safety Plan</a></h3>
-            <p>Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers.</p>
-            <span class="status status-shipped">Live</span>
-          </article>
-          <article class="card">
+          <article class="card card-link">
             <div class="meta">Orlando · Landscaping</div>
             <h3><a class="title-link" href="guides/orlando-landscaping.html">Orlando Landscaping Crew Heat Safety Plan: Humidity, Shade &amp; Water Breaks</a></h3>
             <p>Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers.</p>
             <span class="status status-shipped">Live</span>
           </article>
         </div>
-        <p style="margin-top:1.25rem"><a href="guides/index.html">See full directory →</a></p>
+        <p class="more-link"><a class="btn btn-secondary" href="guides/index.html">See all 16 guides</a></p>
+        <!-- layout:latest:end -->
       </div>
     </section>
 
@@ -335,20 +327,23 @@
     </section>
   </main>
 
+  <!-- layout:footer:start -->
   <footer class="site-footer">
     <img class="footer-pattern" src="assets/brand/pattern/Pattern_BotLeft.svg" alt="" aria-hidden="true">
     <div class="inner">
       <div class="footer-brand">
-        <img class="goes-logo" src="assets/brand/logo/GOES_offwhite.svg" alt="GOES">
+        <img class="goes-logo" src="assets/brand/logo/GOES_offwhite.svg" alt="GOES" width="951" height="186">
         <div><strong>HeatReady Guides</strong> — practical outdoor worker heat safety. Not legal advice.</div>
         <p class="footer-disclaimer">GOES provides guidance. It is not a substitute for professional medical care.</p>
       </div>
-      <div>
-        <a href="https://goes.health">goes.health</a> ·
-        <a href="https://goes.health/platform">platform</a> ·
-        <a href="guides/index.html">Directory</a>
-      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="guides/index.html">All guides</a>
+        <a href="https://goes.health">goes.health</a>
+        <a href="https://goes.health/platform">GOES platform</a>
+      </nav>
     </div>
   </footer>
+  <!-- layout:footer:end -->
 </body>
 </html>

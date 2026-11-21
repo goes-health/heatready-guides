@@ -14,7 +14,8 @@
       "industry": "Construction",
       "path": "guides/phoenix-construction.html",
       "status": "shipped",
-      "published": "2026-11-05"
+      "published": "2026-11-05",
+      "summary": "Summer climate snapshot, full checklist, high-heat table, Arizona / Phoenix contractor context."
     },
     {
       "id": "houston-roofing",
@@ -23,7 +24,8 @@
       "industry": "Roofing",
       "path": "guides/houston-roofing.html",
       "status": "shipped",
-      "published": "2026-11-06"
+      "published": "2026-11-06",
+      "summary": "Roof-deck radiant heat, limited shade, humidity-adjusted break schedules, GOES digital WBGT triggers."
     },
     {
       "id": "las-vegas-landscaping",
@@ -32,7 +34,8 @@
       "industry": "Landscaping",
       "path": "guides/las-vegas-landscaping.html",
       "status": "shipped",
-      "published": "2026-11-07"
+      "published": "2026-11-07",
+      "summary": "Desert landscaping: canopy placement, early starts, dry-heat hydration, GOES digital WBGT triggers."
     },
     {
       "id": "california-construction-3395",
@@ -41,7 +44,8 @@
       "industry": "Construction",
       "path": "guides/california-construction-3395.html",
       "status": "shipped",
-      "published": "2026-11-08"
+      "published": "2026-11-08",
+      "summary": "Written plan headings, 80°F shade, 95°F high-heat procedures, acclimatization notes."
     },
     {
       "id": "dallas-utilities",
@@ -50,7 +54,8 @@
       "industry": "Utilities",
       "path": "guides/dallas-utilities.html",
       "status": "shipped",
-      "published": "2026-11-09"
+      "published": "2026-11-09",
+      "summary": "Line and field crews: heat-index break schedule, acclimatization ramp, PPE load, remote-site EMS directions."
     },
     {
       "id": "miami-delivery",
@@ -59,7 +64,8 @@
       "industry": "Delivery",
       "path": "guides/miami-delivery.html",
       "status": "shipped",
-      "published": "2026-11-10"
+      "published": "2026-11-10",
+      "summary": "Vehicle heat, stop-and-go work, humidity, hydration between stops."
     },
     {
       "id": "tucson-agriculture",
@@ -68,7 +74,8 @@
       "industry": "Agriculture",
       "path": "guides/tucson-agriculture.html",
       "status": "shipped",
-      "published": "2026-11-11"
+      "published": "2026-11-11",
+      "summary": "Field crews: shade structures, high-heat rest cadence, monsoon season notes."
     },
     {
       "id": "atlanta-film-production",
@@ -77,7 +84,8 @@
       "industry": "Film & Events",
       "path": "guides/atlanta-film-production.html",
       "status": "shipped",
-      "published": "2026-11-13"
+      "published": "2026-11-13",
+      "summary": "Location shoots and events: base camp shade, long-call water and rest cadence, humid Southeast summers."
     },
     {
       "id": "san-antonio-oil-gas",
@@ -86,7 +94,8 @@
       "industry": "Oil & Gas",
       "path": "guides/san-antonio-oil-gas.html",
       "status": "shipped",
-      "published": "2026-11-14"
+      "published": "2026-11-14",
+      "summary": "Wellsites and yards: shade points, long-shift water and rest cadence, hot humid South Texas summers."
     },
     {
       "id": "orlando-landscaping",
@@ -95,7 +104,8 @@
       "industry": "Landscaping",
       "path": "guides/orlando-landscaping.html",
       "status": "shipped",
-      "published": "2026-11-15"
+      "published": "2026-11-15",
+      "summary": "Mowing, install and route crews: truck shade, water and rest cadence, humid Central Florida summers."
     },
     {
       "id": "tampa-roofing",
@@ -104,7 +114,8 @@
       "industry": "Roofing",
       "path": "guides/tampa-roofing.html",
       "status": "shipped",
-      "published": "2026-11-15"
+      "published": "2026-11-15",
+      "summary": "Tear-off and install crews: ladder shade, roof-deck water and rest cadence, humid Tampa Bay summers."
     },
     {
       "id": "charlotte-construction",
@@ -113,7 +124,8 @@
       "industry": "Construction",
       "path": "guides/charlotte-construction.html",
       "status": "shipped",
-      "published": "2026-11-16"
+      "published": "2026-11-16",
+      "summary": "Framing, concrete and sitework crews: laydown-yard shade, water and rest cadence, humid Piedmont summers."
     },
     {
       "id": "jacksonville-utilities",
@@ -122,7 +134,8 @@
       "industry": "Utilities",
       "path": "guides/jacksonville-utilities.html",
       "status": "shipped",
-      "published": "2026-11-17"
+      "published": "2026-11-17",
+      "summary": "Line, underground and service crews: water and shade at the truck, rest cadence and mutual-aid acclimatization for humid North Florida summers."
     },
     {
       "id": "austin-landscaping",
@@ -131,7 +144,8 @@
       "industry": "Landscaping",
       "path": "guides/austin-landscaping.html",
       "status": "shipped",
-      "published": "2026-11-18"
+      "published": "2026-11-18",
+      "summary": "Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot Central Texas summers."
     },
     {
       "id": "nashville-landscaping",
@@ -140,7 +154,8 @@
       "industry": "Landscaping",
       "path": "guides/nashville-landscaping.html",
       "status": "shipped",
-      "published": "2026-11-19"
+      "published": "2026-11-19",
+      "summary": "Mowing, install and irrigation crews: trailer and curbside shade, water and rest cadence, and seasonal-hire acclimatization for hot, humid Middle Tennessee summers."
     },
     {
       "id": "memphis-construction",
@@ -149,7 +164,8 @@
       "industry": "Construction",
       "path": "guides/memphis-construction.html",
       "status": "shipped",
-      "published": "2026-11-20"
+      "published": "2026-11-20",
+      "summary": "Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Mid-South summers."
     }
   ]
 }

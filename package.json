@@ -1,0 +1,13 @@
+{
+  "name": "heatready-guides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "layout": "python3 scripts/layout.py",
+    "mobile-check": "node scripts/mobile-check.mjs",
+    "screenshots": "node scripts/mobile-check.mjs --screenshots"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
