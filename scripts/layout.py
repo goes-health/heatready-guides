@@ -13,6 +13,8 @@ What it owns (never hand-edit these regions):
   * <!-- layout:directory:start --> … <!-- layout:directory:end -->  (guides/index.html) all shipped
     guides grouped by industry, with jump chips.
   * <!-- layout:latest:start --> … <!-- layout:latest:end -->  (index.html) newest six guides.
+  * <!-- layout:analytics:start --> … <!-- layout:analytics:end -->  (just before </head>) Cloudflare Web
+    Analytics cookie-free beacon; token in data/analytics.json (cf_beacon_token). Empty token = no script.
   * data-label="…" on trigger-table cells so tables stack into cards on phones.
 Card blurbs come from each guide's "summary" in data/guides.json (falls back to the page's meta
 description). Pages written with the old long header are migrated automatically.
@@ -221,9 +223,31 @@ def label_tables(src):
     return re.sub(r"<table>.*?</table>", do_table, src, flags=re.S)
 
 
+ANALYTICS_JSON = os.path.join(ROOT, "data", "analytics.json")
+
+
+def analytics_block():
+    tok = ""
+    if os.path.exists(ANALYTICS_JSON):
+        with open(ANALYTICS_JSON, encoding="utf-8") as f:
+            tok = json.load(f).get("cf_beacon_token", "")
+    script = (f"\n  <script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{{\"token\": \"{esc(tok)}\"}}'></script>\n  "
+              if tok else "")
+    return f"<!-- layout:analytics:start -->{script}<!-- layout:analytics:end -->"
+
+
+def apply_analytics(src):
+    pat = re.compile(r"<!-- layout:analytics:start -->.*?<!-- layout:analytics:end -->", re.S)
+    block = analytics_block()
+    if pat.search(src):
+        return pat.sub(lambda m: block, src, count=1)
+    return src.replace("</head>", f"  {block}\n</head>", 1)
+
+
 def render(rel, src, shipped):
     root = "" if rel == "index.html" else "../"
     out = replace_region(src, "header", header(root, rel, shipped), LEGACY_HEADER)
+    out = apply_analytics(out)
     out = replace_region(out, "footer", footer(root), LEGACY_FOOTER)
     if rel == "guides/index.html":
         out = replace_region(out, "directory", directory_block(shipped), LEGACY_DIRECTORY)
