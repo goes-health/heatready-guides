@@ -166,6 +166,16 @@
       "status": "shipped",
       "published": "2026-11-20",
       "summary": "Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Mid-South summers."
+    },
+    {
+      "id": "new-orleans-construction",
+      "title": "New Orleans Construction Crew Heat Safety Plan: Gulf Coast Humidity, Shade & Water Breaks",
+      "city": "New Orleans",
+      "industry": "Construction",
+      "path": "guides/new-orleans-construction.html",
+      "status": "shipped",
+      "published": "2026-11-21",
+      "summary": "Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Gulf Coast summers."
     }
   ]
 }
