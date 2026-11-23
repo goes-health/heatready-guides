@@ -1,6 +1,6 @@
 # Heat safety directory
 
-> 17 live city × industry heat checklists for construction, landscaping, roofing, utilities, agriculture, delivery, film & events, and oil & gas crews, paired with GOES digital WBGT and live heat-risk scores.
+> 18 live city × industry heat checklists for construction, landscaping, roofing, utilities, agriculture, delivery, film & events, and oil & gas crews, paired with GOES digital WBGT and live heat-risk scores.
 
 HTML version: https://heatready.goes.health/guides/
 
@@ -12,6 +12,12 @@ One guide per city × industry. Printable checklists and trigger tables that pai
 ## All guides
 
 ### Construction
+
+Birmingham · Construction
+
+#### [Birmingham Construction Crew Heat Safety Plan: Hot Alabama Summers, Shade & Water Breaks](https://heatready.goes.health/guides/birmingham-construction.md)
+
+Framing, concrete and site crews: laydown-yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Alabama summers.
 
 New Orleans · Construction
 
@@ -162,6 +168,7 @@ GOES provides guidance. It is not a substitute for professional medical care.
 - [Nashville Landscaping Crew Heat Safety Plan: Humid Summers, Shade & Water Breaks](https://heatready.goes.health/guides/nashville-landscaping.md): Nashville · Landscaping · published 2026-11-19
 - [Memphis Construction Crew Heat Safety Plan: Humid Delta Summers, Shade & Water Breaks](https://heatready.goes.health/guides/memphis-construction.md): Memphis · Construction · published 2026-11-20
 - [New Orleans Construction Crew Heat Safety Plan: Gulf Coast Humidity, Shade & Water Breaks](https://heatready.goes.health/guides/new-orleans-construction.md): New Orleans · Construction · published 2026-11-21
+- [Birmingham Construction Crew Heat Safety Plan: Hot Alabama Summers, Shade & Water Breaks](https://heatready.goes.health/guides/birmingham-construction.md): Birmingham · Construction · published 2026-11-22
 
 ---
 

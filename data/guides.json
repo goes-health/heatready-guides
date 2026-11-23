@@ -176,6 +176,16 @@
       "status": "shipped",
       "published": "2026-11-21",
       "summary": "Framing, concrete and site crews: yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Gulf Coast summers."
+    },
+    {
+      "id": "birmingham-construction",
+      "title": "Birmingham Construction Crew Heat Safety Plan: Hot Alabama Summers, Shade & Water Breaks",
+      "city": "Birmingham",
+      "industry": "Construction",
+      "path": "guides/birmingham-construction.html",
+      "status": "shipped",
+      "published": "2026-11-22",
+      "summary": "Framing, concrete and site crews: laydown-yard and work-area shade, water and rest cadence, and acclimatization for new hires and traveling crew in hot, humid Alabama summers."
     }
   ]
 }
