@@ -142,6 +142,7 @@ def footer(root):
         <a href="{root}guides/index.html">All guides</a>
         <a href="{GOES}">goes.health</a>
         <a href="{PLATFORM}">GOES platform</a>
+        <a href="https://skiready.goes.health/">SkiReady</a>
       </nav>
     </div>
   </footer>

@@ -52,6 +52,10 @@ Base URL: https://heatready.goes.health/. Every HTML page has a Markdown twin: r
 - [GOES platform](https://goes.health/platform?utm_source=llms_txt&utm_medium=agent&utm_campaign=heatready): Workplace and enterprise workflows
 - [GOES pricing](https://goes.health/goes-pricing.html?utm_source=llms_txt&utm_medium=agent&utm_campaign=heatready): Workplace / API plans and sales contact
 
+## Also from GOES Health
+
+- [SkiReady](https://skiready.goes.health/): Family ski-trip cold safety — frostbite, hypothermia and wind-chill cutoffs for young kids, with live NWS wind chill at covered resorts. Overview: https://skiready.goes.health/llms.txt
+
 ## Optional
 
 - [Home page (HTML)](https://heatready.goes.health/): Human-facing version

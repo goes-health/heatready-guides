@@ -367,6 +367,8 @@ def build():
         f"- [GOES]({GOES_SITE}): Digital WBGT and live heat-risk scores",
         f"- [GOES platform]({GOES_PLATFORM}): Workplace and enterprise workflows",
         f"- [GOES pricing]({GOES_PRICING}): Workplace / API plans and sales contact",
+        "", "## Also from GOES Health", "",
+        "- [SkiReady](https://skiready.goes.health/): Family ski-trip cold safety — frostbite, hypothermia and wind-chill cutoffs for young kids, with live NWS wind chill at covered resorts. Overview: https://skiready.goes.health/llms.txt",
         "", "## Optional", "",
         f"- [Home page (HTML)]({BASE}): Human-facing version",
         "",
